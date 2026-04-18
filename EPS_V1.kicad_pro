@@ -560,12 +560,24 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -613,6 +625,18 @@
     [
       "85157432-5d03-48fa-ab40-27ed3d133f47",
       "Root"
+    ],
+    [
+      "dccdebb8-bc98-4226-b239-70e380ba944d",
+      "Connectors"
+    ],
+    [
+      "d39b1cbe-de60-4da6-b23b-bfd89ef5271a",
+      "Converters"
+    ],
+    [
+      "d6a7ca1d-fe68-467f-8233-74a5cf811189",
+      "Battery Pack 1"
     ]
   ],
   "text_variables": {}

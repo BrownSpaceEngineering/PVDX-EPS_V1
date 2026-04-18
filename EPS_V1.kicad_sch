@@ -5,15 +5,131 @@
 	(uuid "85157432-5d03-48fa-ab40-27ed3d133f47")
 	(paper "A4")
 	(lib_symbols)
-	(text "Hello world"
+	(sheet
+		(at 80.01 31.75)
+		(size 22.86 3.81)
 		(exclude_from_sim no)
-		(at 139.446 86.614 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d39b1cbe-de60-4da6-b23b-bfd89ef5271a")
+		(property "Sheetname" "Converters"
+			(at 80.01 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
 			)
 		)
-		(uuid "50acef07-4512-4a77-b5c5-75c6bd162f9b")
+		(property "Sheetfile" "EPS_V1_converters.kicad_sch"
+			(at 80.01 36.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EPS_V1"
+				(path "/85157432-5d03-48fa-ab40-27ed3d133f47"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 44.45)
+		(size 21.59 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d6a7ca1d-fe68-467f-8233-74a5cf811189")
+		(property "Sheetname" "Battery Pack 1"
+			(at 34.29 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "EPS_V1_battery_pack_1.kicad_sch"
+			(at 34.29 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EPS_V1"
+				(path "/85157432-5d03-48fa-ab40-27ed3d133f47"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 31.75)
+		(size 21.59 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dccdebb8-bc98-4226-b239-70e380ba944d")
+		(property "Sheetname" "Connectors"
+			(at 34.29 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "EPS_V1_connectors.kicad_sch"
+			(at 34.29 36.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EPS_V1"
+				(path "/85157432-5d03-48fa-ab40-27ed3d133f47"
+					(page "2")
+				)
+			)
+		)
 	)
 	(sheet_instances
 		(path "/"
