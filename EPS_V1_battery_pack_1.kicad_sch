@@ -1401,7 +1401,7 @@
 		)
 		(uuid "1c17237e-32f0-4770-b403-89b1a3e0fe54")
 	)
-	(text "can't find value of R_MID on datasheet anywhere so I guessed 10k?"
+	(text "can't find value of R_MID on datasheet anywhere so I put 0 for now"
 		(exclude_from_sim no)
 		(at 156.21 134.366 0)
 		(effects
@@ -3202,7 +3202,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "0"
 			(at 122.682 86.36 0)
 			(effects
 				(font

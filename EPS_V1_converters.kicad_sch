@@ -1752,7 +1752,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "todo: add buck converter for 7.8V"
+	(text "todo: add buck converter for 7.2V"
 		(exclude_from_sim no)
 		(at 83.82 82.296 0)
 		(effects
