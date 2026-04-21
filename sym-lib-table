@@ -4,4 +4,5 @@
   (lib (name "TPS62132RGTR")(type "KiCad")(uri "${KIPRJMOD}/imported/TPS62132RGTR/KiCADv6/2026-04-18_01-28-32.kicad_sym")(options "")(descr ""))
   (lib (name "TPS62133RGTR")(type "KiCad")(uri "${KIPRJMOD}/imported/TPS62133RGTR/KiCADv6/2026-04-18_01-28-10.kicad_sym")(options "")(descr ""))
   (lib (name "sym_lib")(type "KiCad")(uri "${KIPRJMOD}/sym_lib.kicad_sym")(options "")(descr ""))
+  (lib (name "MP28167GQ-Z")(type "KiCad")(uri "${KIPRJMOD}/imported/ul_MP28167GQ-Z/KiCADv6/2026-04-21_14-16-18.kicad_sym")(options "")(descr ""))
 )

@@ -1468,12 +1468,6 @@
 		(uuid "82b71821-05cc-4298-a696-5267fdbc0f7a")
 	)
 	(junction
-		(at 179.07 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3278cfc-0dae-467d-adb3-1828c37b0840")
-	)
-	(junction
 		(at 102.87 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1500,6 +1494,14 @@
 	(no_connect
 		(at 165.1 78.74)
 		(uuid "11e73eb8-dd78-49c0-a621-366d8d628dd5")
+	)
+	(no_connect
+		(at 165.1 73.66)
+		(uuid "54cf5a78-b6df-4099-b10d-84fa890b141c")
+	)
+	(no_connect
+		(at 165.1 71.12)
+		(uuid "684c7826-38c3-4737-ab1e-2e33aa0e2deb")
 	)
 	(wire
 		(pts
@@ -1533,7 +1535,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 48.26) (xy 179.07 48.26)
+			(xy 175.26 48.26) (xy 182.88 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1560,6 +1562,16 @@
 			(type default)
 		)
 		(uuid "2c4cf4e0-0ec4-4647-87af-d1e1eaef6786")
+	)
+	(wire
+		(pts
+			(xy 177.8 66.04) (xy 177.8 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f5d8fcc-6081-4354-8953-569cf15c16a7")
 	)
 	(wire
 		(pts
@@ -1613,16 +1625,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 73.66) (xy 193.04 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5318ecd7-fd0e-4f01-a98b-2a36576c9184")
-	)
-	(wire
-		(pts
 			(xy 109.22 71.12) (xy 124.46 71.12)
 		)
 		(stroke
@@ -1640,26 +1642,6 @@
 			(type default)
 		)
 		(uuid "5d2efd79-8bc6-435f-8a8e-33a4af6f55d4")
-	)
-	(wire
-		(pts
-			(xy 179.07 48.26) (xy 175.26 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f0717bb-4211-4270-9e2c-b2a2ba768e44")
-	)
-	(wire
-		(pts
-			(xy 165.1 66.04) (xy 179.07 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63a21f12-68e9-4840-93d6-a9ecc91e9acb")
 	)
 	(wire
 		(pts
@@ -1730,16 +1712,6 @@
 			(type default)
 		)
 		(uuid "8bfa1abb-5a1f-49c2-982e-3b364db9110d")
-	)
-	(wire
-		(pts
-			(xy 179.07 66.04) (xy 179.07 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e8f1831-f863-4f0d-ab49-a068efae685a")
 	)
 	(wire
 		(pts
@@ -1883,16 +1855,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 71.12) (xy 193.04 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec394d2f-357a-46b7-a27e-b483d158c5f5")
-	)
-	(wire
-		(pts
 			(xy 166.37 81.28) (xy 166.37 88.9)
 		)
 		(stroke
@@ -1910,6 +1872,16 @@
 			(type default)
 		)
 		(uuid "f9b3afa9-ca08-4c3e-a59c-b826e7616f05")
+	)
+	(wire
+		(pts
+			(xy 165.1 66.04) (xy 177.8 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa6a26c6-314a-4d76-a5d4-bd01249af45e")
 	)
 	(wire
 		(pts
@@ -1941,7 +1913,7 @@
 		)
 		(uuid "fe8b00fc-e7d4-40d6-904a-7d8abcaa2d50")
 	)
-	(label "VIN1"
+	(label "VIN"
 		(at 90.17 52.07 0)
 		(effects
 			(font
@@ -2000,50 +1972,6 @@
 			(justify left bottom)
 		)
 		(uuid "aee297ab-3aae-441b-8437-3f22af8eda77")
-	)
-	(global_label "I2C1_SCL"
-		(shape bidirectional)
-		(at 193.04 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6956bb60-769a-4615-88ce-fce8eb1c3af8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.9055 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2C1_SDA"
-		(shape bidirectional)
-		(at 193.04 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9e382520-4cbf-4e1b-93c5-c2f90c82660b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.966 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -2178,6 +2106,75 @@
 			(project ""
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/d6a7ca1d-fe68-467f-8233-74a5cf811189"
 					(reference "L_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 177.8 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1dc290d5-52ce-43b8-aad2-7584ff8b9853")
+		(property "Reference" "R_VBATT"
+			(at 179.832 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33k"
+			(at 179.832 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 178.816 73.914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 177.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ba452e67-2424-4637-8d17-03084526e661")
+		)
+		(pin "1"
+			(uuid "dff76364-026e-4e79-8545-acca05121907")
+		)
+		(instances
+			(project "EPS_V1"
+				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/d6a7ca1d-fe68-467f-8233-74a5cf811189"
+					(reference "R_VBATT")
 					(unit 1)
 				)
 			)
@@ -2840,6 +2837,71 @@
 			(project ""
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/d6a7ca1d-fe68-467f-8233-74a5cf811189"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 177.8 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80cb7966-d1ff-4ace-a620-540ceec76468")
+		(property "Reference" "#PWR031"
+			(at 177.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 177.8 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bd61ed7-1c36-4aef-8e35-5e6baf7690ac")
+		)
+		(instances
+			(project "EPS_V1"
+				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/d6a7ca1d-fe68-467f-8233-74a5cf811189"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
