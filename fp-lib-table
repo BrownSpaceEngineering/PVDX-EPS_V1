@@ -5,4 +5,5 @@
   (lib (name "TPS62133RGTR")(type "KiCad")(uri "${KIPRJMOD}/imported/TPS62133RGTR/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "MP28167GQ-Z")(type "KiCad")(uri "${KIPRJMOD}/imported/ul_MP28167GQ-Z/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "MAX17205G")(type "KiCad")(uri "${KIPRJMOD}/imported/ul_MAX17205G/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "TPS61088RHLR")(type "KiCad")(uri "${KIPRJMOD}/imported/TPS61088RHLR/KiCADv6/footprints.pretty")(options "")(descr ""))
 )
