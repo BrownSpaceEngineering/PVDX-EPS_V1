@@ -5176,7 +5176,7 @@
 			)
 		)
 	)
-	(global_label "VIN"
+	(global_label "VSOLARR"
 		(shape passive)
 		(at 271.78 40.64 0)
 		(fields_autoplaced yes)
@@ -5188,7 +5188,7 @@
 		)
 		(uuid "8f79a7a5-c400-41d9-ae5c-22806d4f5062")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.6778 40.64 0)
+			(at 281.9392 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
