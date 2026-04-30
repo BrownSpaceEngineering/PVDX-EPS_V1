@@ -3137,12 +3137,6 @@
 		(uuid "576cdaec-70df-4a79-8c6c-495e5cad6e2a")
 	)
 	(junction
-		(at 186.69 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "578113e3-4d53-468e-ab31-50be4aa5cf6b")
-	)
-	(junction
 		(at 59.69 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3221,12 +3215,6 @@
 		(uuid "75e33011-1ae2-48ee-a1df-14390ad2b477")
 	)
 	(junction
-		(at 185.42 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f3b5ab1-724a-4887-8801-eab07bb42c33")
-	)
-	(junction
 		(at 132.08 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3249,12 +3237,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83b38f84-36de-431b-9b7d-174b40f0bd88")
-	)
-	(junction
-		(at 189.23 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "83c19acc-30ec-44df-9670-88b9f0cadb42")
 	)
 	(junction
 		(at 114.3 49.53)
@@ -3455,12 +3437,6 @@
 		(uuid "eb5c38a0-8687-47d6-b2f3-f2863f23aa0c")
 	)
 	(junction
-		(at 185.42 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ebea95f0-4bf1-4af3-93ef-e65ef04f0b7a")
-	)
-	(junction
 		(at 234.95 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3496,16 +3472,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 68.58) (xy 186.69 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01683daa-5f0a-450e-961a-9bf393b04d3c")
-	)
-	(wire
-		(pts
 			(xy 114.3 59.69) (xy 113.03 59.69)
 		)
 		(stroke
@@ -3513,16 +3479,6 @@
 			(type default)
 		)
 		(uuid "01e13ae2-d2de-4c70-bfd5-9df3039820f6")
-	)
-	(wire
-		(pts
-			(xy 186.69 68.58) (xy 186.69 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02a8ee3f-ae6f-4c33-843b-4f8b9de83caa")
 	)
 	(wire
 		(pts
@@ -3686,16 +3642,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 69.85) (xy 185.42 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b312f6f-f01d-49d7-a114-bd50c7e26f63")
-	)
-	(wire
-		(pts
 			(xy 190.5 35.56) (xy 189.23 35.56)
 		)
 		(stroke
@@ -3703,16 +3649,6 @@
 			(type default)
 		)
 		(uuid "1c2291f6-9096-4d03-9a05-c7ef0dfffcb4")
-	)
-	(wire
-		(pts
-			(xy 185.42 68.58) (xy 185.42 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22781f45-039b-4df2-8430-857294ae0a58")
 	)
 	(wire
 		(pts
@@ -3803,16 +3739,6 @@
 			(type default)
 		)
 		(uuid "2dec43f5-a137-4be2-924c-c74e1e469ccc")
-	)
-	(wire
-		(pts
-			(xy 184.15 68.58) (xy 184.15 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f9ef356-e234-4f8e-bba9-ceeccd40ea73")
 	)
 	(wire
 		(pts
@@ -4143,16 +4069,6 @@
 			(type default)
 		)
 		(uuid "5a33515e-b960-4bd9-8916-e2fe89e39f8f")
-	)
-	(wire
-		(pts
-			(xy 185.42 68.58) (xy 184.15 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ca71a73-1ccb-4a27-8c18-ef44d26bdd57")
 	)
 	(wire
 		(pts
@@ -4716,16 +4632,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 68.58) (xy 185.42 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1291509-9017-455a-92cc-02de64caf636")
-	)
-	(wire
-		(pts
 			(xy 186.69 43.18) (xy 190.5 43.18)
 		)
 		(stroke
@@ -4966,16 +4872,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 69.85) (xy 186.69 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2966d4c-3572-406c-aa9f-1d7466d527b2")
-	)
-	(wire
-		(pts
 			(xy 168.91 30.48) (xy 179.07 30.48)
 		)
 		(stroke
@@ -5154,7 +5050,7 @@
 		)
 		(uuid "ff37b0d5-1cf5-4085-b379-c1b441aa0206")
 	)
-	(global_label "VSOLAR"
+	(global_label "SOLAR"
 		(shape passive)
 		(at 156.21 30.48 180)
 		(fields_autoplaced yes)
@@ -5166,7 +5062,7 @@
 		)
 		(uuid "45835dd9-6861-49e2-8537-8bf479209519")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.3208 30.48 0)
+			(at 148.4094 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5176,7 +5072,7 @@
 			)
 		)
 	)
-	(global_label "VSOLARR"
+	(global_label "SOLAR_5V"
 		(shape passive)
 		(at 271.78 40.64 0)
 		(fields_autoplaced yes)
@@ -5188,7 +5084,7 @@
 		)
 		(uuid "8f79a7a5-c400-41d9-ae5c-22806d4f5062")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.9392 40.64 0)
+			(at 282.8463 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5198,7 +5094,7 @@
 			)
 		)
 	)
-	(global_label "VOUT"
+	(global_label "CHG_OUT"
 		(shape passive)
 		(at 31.75 114.3 180)
 		(fields_autoplaced yes)
@@ -5210,7 +5106,7 @@
 		)
 		(uuid "b55af9d5-a8c3-42ba-ba0f-0fd2bda4ff9e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.1589 114.3 0)
+			(at 21.4094 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5879,7 +5775,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2c06cdb8-d109-49da-b938-73ddd884cda7")
 		(property "Reference" "#PWR016"
 			(at 143.51 175.26 0)
@@ -5891,7 +5786,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 143.51 166.37 0)
+			(at 143.51 167.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)

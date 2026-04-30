@@ -4824,7 +4824,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 107.95) (xy 121.92 107.95)
+			(xy 106.68 107.95) (xy 119.38 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4902,7 +4902,7 @@
 		)
 		(uuid "fe502689-8fc3-474b-bf1a-00a183c1e8fe")
 	)
-	(global_label "VOUT2"
+	(global_label "CHG_OUT2"
 		(shape passive)
 		(at 194.31 71.12 180)
 		(fields_autoplaced yes)
@@ -4914,7 +4914,7 @@
 		)
 		(uuid "0a9e2b7e-a79f-4db4-86a1-9a6b11553b47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.5094 71.12 0)
+			(at 182.7599 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4990,7 +4990,7 @@
 			)
 		)
 	)
-	(global_label "VIN"
+	(global_label "CHG_IN"
 		(shape passive)
 		(at 209.55 135.89 0)
 		(fields_autoplaced yes)
@@ -5002,7 +5002,7 @@
 		)
 		(uuid "1d8ffcc2-c9b2-489a-b707-fb634fb8a46f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.4478 135.89 0)
+			(at 218.1973 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5100,7 +5100,7 @@
 			)
 		)
 	)
-	(global_label "VSOLARR"
+	(global_label "SOLAR_5V"
 		(shape passive)
 		(at 194.31 130.81 180)
 		(fields_autoplaced yes)
@@ -5112,7 +5112,7 @@
 		)
 		(uuid "28f606ff-a7ff-4150-b764-5b7aabbacc98")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.1508 130.81 0)
+			(at 183.2437 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5232,7 +5232,7 @@
 			)
 		)
 	)
-	(global_label "VOUT3"
+	(global_label "CHG_OUT3"
 		(shape passive)
 		(at 194.31 81.28 180)
 		(fields_autoplaced yes)
@@ -5244,7 +5244,7 @@
 		)
 		(uuid "47ef9057-0958-49ac-ad73-da4572123af6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.5094 81.28 0)
+			(at 182.7599 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5386,7 +5386,7 @@
 			)
 		)
 	)
-	(global_label "VCHG"
+	(global_label "EXT_5V"
 		(shape passive)
 		(at 106.68 110.49 0)
 		(fields_autoplaced yes)
@@ -5398,7 +5398,7 @@
 		)
 		(uuid "75e88e97-d3b4-4e50-b704-9592b6766a8b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.513 110.49 0)
+			(at 115.1457 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5408,7 +5408,7 @@
 			)
 		)
 	)
-	(global_label "VSOLAR"
+	(global_label "SOLAR"
 		(shape passive)
 		(at 48.26 49.53 0)
 		(fields_autoplaced yes)
@@ -5420,7 +5420,7 @@
 		)
 		(uuid "7cac7ed1-9c51-459b-9421-72101abaca9d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.1492 49.53 0)
+			(at 56.0606 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5496,7 +5496,7 @@
 			)
 		)
 	)
-	(global_label "VOUT4"
+	(global_label "CHG_OUT4"
 		(shape passive)
 		(at 194.31 91.44 180)
 		(fields_autoplaced yes)
@@ -5508,7 +5508,7 @@
 		)
 		(uuid "872c9759-cb04-435f-96bc-a1b184ca66fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.5094 91.44 0)
+			(at 182.7599 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5518,7 +5518,7 @@
 			)
 		)
 	)
-	(global_label "VOUT1"
+	(global_label "CHG_OUT1"
 		(shape passive)
 		(at 194.31 60.96 180)
 		(fields_autoplaced yes)
@@ -5530,7 +5530,7 @@
 		)
 		(uuid "891de139-8a43-45b6-b6e3-44c621b6108d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.5094 60.96 0)
+			(at 182.7599 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5562,7 +5562,7 @@
 			)
 		)
 	)
-	(global_label "VCHG"
+	(global_label "EXT_5V"
 		(shape passive)
 		(at 194.31 140.97 180)
 		(fields_autoplaced yes)
@@ -5574,7 +5574,7 @@
 		)
 		(uuid "964135b5-a22f-4491-b9eb-652b1e40f79b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.477 140.97 0)
+			(at 185.8443 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5694,7 +5694,7 @@
 			)
 		)
 	)
-	(global_label "VOUT"
+	(global_label "CHG_OUT"
 		(shape passive)
 		(at 243.84 76.2 0)
 		(fields_autoplaced yes)
@@ -5706,7 +5706,7 @@
 		)
 		(uuid "df31a23b-0ad7-455d-9819-23a9a62de71a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.4311 76.2 0)
+			(at 254.1806 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6526,7 +6526,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 107.95 0)
+		(at 119.38 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6534,7 +6534,7 @@
 		(dnp no)
 		(uuid "aaa57e7c-becf-4a39-b34e-5a1b1037d11a")
 		(property "Reference" "#PWR034"
-			(at 121.92 114.3 0)
+			(at 119.38 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6543,7 +6543,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 112.014 0)
+			(at 119.38 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6551,7 +6551,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 107.95 0)
+			(at 119.38 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6560,7 +6560,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 107.95 0)
+			(at 119.38 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6569,7 +6569,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 107.95 0)
+			(at 119.38 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
