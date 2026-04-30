@@ -3377,6 +3377,292 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "oresat-misc:OMRON-D2F-L3-D-LEFT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at -5.08 3.81 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -5.08 -5.08 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "oresat-misc:D2F-L3-D-HORIZONTAL-L"
+				(at 0 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OMRON-D2F-L3-D-LEFT_1_0"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "COM"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 2.54 180)
+					(length 3.81)
+					(name "NC"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -2.54 180)
+					(length 3.81)
+					(name "NO"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "NO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "oresat-misc:OMRON-D2F-L3-D-RIGHT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at -6.35 3.81 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -5.08 -5.08 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "oresat-misc:D2F-L3-D-HORIZONTAL-R"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OMRON-D2F-L3-D-RIGHT_1_0"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "COM"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 2.54 180)
+					(length 3.81)
+					(name "NC"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -2.54 180)
+					(length 3.81)
+					(name "NO"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "NO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers
@@ -3854,25 +4140,25 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "todo: add inhibit switch"
+	(text "normally closed inhibit switch\n(disconnect batteries from ground when pressed)"
 		(exclude_from_sim no)
-		(at 212.09 107.696 0)
+		(at 242.57 102.108 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "8997b08a-9c5c-402f-a851-ddc287ec5828")
+		(uuid "7fd3df8e-0900-4f24-bfd8-13d0ab8be626")
 	)
-	(text "todo: add inhibit switches"
+	(text "normally closed inhibit switches\n(disconnect batteries from load when pressed)"
 		(exclude_from_sim no)
-		(at 225.806 74.676 0)
+		(at 238.76 62.738 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "927b3326-86ab-4b31-b96a-78b1d6d359fb")
+		(uuid "f1a514aa-469e-4c5d-8f85-3c98c844264f")
 	)
 	(junction
 		(at 207.01 135.89)
@@ -3941,6 +4227,12 @@
 		(uuid "512b77d8-9c02-4560-9f3b-01b2bf909505")
 	)
 	(junction
+		(at 207.01 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63697bfe-34eb-4354-bf78-d5b358d34640")
+	)
+	(junction
 		(at 45.72 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3981,12 +4273,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "978b1c80-751f-4337-864e-9fe1131b29a4")
-	)
-	(junction
-		(at 207.01 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4bea1a2-63b8-48be-a5d5-2ec9db0aa4e5")
 	)
 	(junction
 		(at 45.72 143.51)
@@ -4059,8 +4345,16 @@
 		(uuid "42660cf7-3c19-4d6b-b895-d0e29d053931")
 	)
 	(no_connect
+		(at 219.71 78.74)
+		(uuid "61788c1a-0c2f-44e7-b53e-c76b6ec950df")
+	)
+	(no_connect
 		(at 45.72 41.91)
 		(uuid "75040a2d-0a96-4eac-942d-fb5f13e29e48")
+	)
+	(no_connect
+		(at 214.63 111.76)
+		(uuid "98718185-8270-432d-996f-f08150fc83ec")
 	)
 	(no_connect
 		(at 106.68 41.91)
@@ -4069,6 +4363,10 @@
 	(no_connect
 		(at 45.72 44.45)
 		(uuid "9ea8a4ad-c64b-4b36-aa3f-8f4eb7da4421")
+	)
+	(no_connect
+		(at 227.33 78.74)
+		(uuid "a84d1d25-aba0-4b2a-8a51-336edcd4055f")
 	)
 	(no_connect
 		(at 106.68 105.41)
@@ -4124,6 +4422,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 106.68) (xy 214.63 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d3a320d-e4a9-4426-b38b-99e2cff43ea8")
+	)
+	(wire
+		(pts
 			(xy 203.2 60.96) (xy 207.01 60.96)
 		)
 		(stroke
@@ -4164,6 +4472,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 76.2) (xy 227.33 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23c06e3b-ad25-435a-839c-26817987a23c")
+	)
+	(wire
+		(pts
 			(xy 48.26 57.15) (xy 45.72 57.15)
 		)
 		(stroke
@@ -4174,6 +4492,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 76.2) (xy 227.33 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27ded2e0-6360-4257-ab0d-6bee982d3354")
+	)
+	(wire
+		(pts
 			(xy 106.68 67.31) (xy 109.22 67.31)
 		)
 		(stroke
@@ -4181,16 +4509,6 @@
 			(type default)
 		)
 		(uuid "2b23656f-3561-493d-a8a9-189dc28486bb")
-	)
-	(wire
-		(pts
-			(xy 196.85 109.22) (xy 228.6 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2be84242-7d46-4a95-a38a-f13005b69377")
 	)
 	(wire
 		(pts
@@ -4304,16 +4622,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 76.2) (xy 207.01 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50245b13-853a-4cf4-9495-72bf06f9b966")
-	)
-	(wire
-		(pts
 			(xy 48.26 69.85) (xy 45.72 69.85)
 		)
 		(stroke
@@ -4321,16 +4629,6 @@
 			(type default)
 		)
 		(uuid "51507c79-ef76-4ecb-9963-c3071583e1e4")
-	)
-	(wire
-		(pts
-			(xy 207.01 71.12) (xy 207.01 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "538be493-2b0f-4435-bb70-6ac724093025")
 	)
 	(wire
 		(pts
@@ -4514,13 +4812,23 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 76.2) (xy 207.01 81.28)
+			(xy 207.01 71.12) (xy 207.01 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "85b0a4be-6d8b-4f17-8196-a8a424226513")
+	)
+	(wire
+		(pts
+			(xy 196.85 109.22) (xy 207.01 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "932b25d5-7c13-40ae-94ea-a0d35db8efd4")
 	)
 	(wire
 		(pts
@@ -4551,6 +4859,26 @@
 			(type default)
 		)
 		(uuid "a3bac586-980e-475b-a825-247b0bf0b804")
+	)
+	(wire
+		(pts
+			(xy 214.63 109.22) (xy 228.6 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a763f2ed-a9a9-428c-bbb9-08a4a1853aa2")
+	)
+	(wire
+		(pts
+			(xy 207.01 76.2) (xy 207.01 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8c9bd2f-8399-491c-8037-78e6c8044084")
 	)
 	(wire
 		(pts
@@ -4684,6 +5012,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 76.2) (xy 219.71 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8da1c40-1b4a-4a12-b069-1885d0c83557")
+	)
+	(wire
+		(pts
 			(xy 45.72 138.43) (xy 45.72 140.97)
 		)
 		(stroke
@@ -4691,6 +5029,16 @@
 			(type default)
 		)
 		(uuid "c9f298bf-7451-43e2-a5cb-744ae457bd2a")
+	)
+	(wire
+		(pts
+			(xy 207.01 76.2) (xy 212.09 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cabad567-9b80-4f4b-b0e0-fc4de075eb2c")
 	)
 	(wire
 		(pts
@@ -4761,6 +5109,16 @@
 			(type default)
 		)
 		(uuid "db7291c0-9a03-4239-b857-3f97427606c8")
+	)
+	(wire
+		(pts
+			(xy 234.95 76.2) (xy 243.84 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc3b5ba5-f052-452e-9f1d-be155a8791e2")
 	)
 	(wire
 		(pts
@@ -5761,6 +6119,78 @@
 		)
 	)
 	(symbol
+		(lib_id "oresat-misc:OMRON-D2F-L3-D-RIGHT")
+		(at 210.82 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "066ef5f3-3886-4085-a3be-1ed50737727c")
+		(property "Reference" "SW3"
+			(at 205.74 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "OMRON D2F-L3-D (RIGHT)"
+			(at 198.12 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:D2F-L3-D-HORIZONTAL-R"
+			(at 210.82 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "C"
+			(uuid "6035db8e-f8ee-406e-a3ff-d9cf2367a1a7")
+		)
+		(pin "NC"
+			(uuid "f36a64a8-7364-4495-a18e-aff4cbd44021")
+		)
+		(pin "NO"
+			(uuid "03363955-53ee-426a-86b9-3787cf1f1f2c")
+		)
+		(instances
+			(project "EPS_V1"
+				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/dccdebb8-bc98-4226-b239-70e380ba944d"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 50.8 148.59 0)
 		(unit 1)
@@ -5887,6 +6317,79 @@
 			(project "EPS_V1"
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/dccdebb8-bc98-4226-b239-70e380ba944d"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:OMRON-D2F-L3-D-LEFT")
+		(at 231.14 76.2 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e27d04d-cacf-4562-998e-9370abbe2ef2")
+		(property "Reference" "SW2"
+			(at 236.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "OMRON D2F-L3-D (LEFT)"
+			(at 243.84 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:D2F-L3-D-HORIZONTAL-L"
+			(at 231.14 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "C"
+			(uuid "f986c6d0-7f78-40c8-abd1-1a7c62ecc144")
+		)
+		(pin "NC"
+			(uuid "f66920bf-999a-46a2-8123-d95a8744bc81")
+		)
+		(pin "NO"
+			(uuid "a5e60791-f092-42f5-a711-277c6c9fdcf3")
+		)
+		(instances
+			(project "EPS_V1"
+				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/dccdebb8-bc98-4226-b239-70e380ba944d"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -6076,6 +6579,78 @@
 			(project ""
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/dccdebb8-bc98-4226-b239-70e380ba944d"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:OMRON-D2F-L3-D-RIGHT")
+		(at 215.9 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5600e4c2-ec20-40d3-9b26-4679d8296948")
+		(property "Reference" "SW1"
+			(at 210.82 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "OMRON D2F-L3-D (RIGHT)"
+			(at 203.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:D2F-L3-D-HORIZONTAL-R"
+			(at 215.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "C"
+			(uuid "440f83d3-bc2f-47be-8194-6961c8457cd4")
+		)
+		(pin "NC"
+			(uuid "3bcf472b-a590-470e-b28a-7b0b66fdd4dc")
+		)
+		(pin "NO"
+			(uuid "675253aa-ca8b-45b2-8cfa-a725ab6afc6b")
+		)
+		(instances
+			(project "EPS_V1"
+				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/dccdebb8-bc98-4226-b239-70e380ba944d"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
