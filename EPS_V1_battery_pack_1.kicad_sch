@@ -12,7 +12,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "U1"
 				(at 20.32 10.16 0)
 				(effects
 					(font
@@ -28,7 +28,7 @@
 					)
 				)
 			)
-			(property "Footprint" "QFN-18_MP2672A_MNP"
+			(property "Footprint" "MP2672AGD_0000_Z:QFN-18_MP2672A_MNP"
 				(at 0 0 0)
 				(effects
 					(font
@@ -150,7 +150,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -2.54 0)
 					(length 7.62)
 					(name "SW"
@@ -168,7 +168,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -5.08 0)
 					(length 7.62)
 					(name "BST"
@@ -186,7 +186,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 0 -7.62 0)
 					(length 7.62)
 					(name "VCC"
@@ -276,7 +276,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -20.32 0)
 					(length 7.62)
 					(name "MID"
@@ -420,7 +420,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 40.64 -17.78 180)
 					(length 7.62)
 					(name "SYS"
@@ -438,7 +438,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 40.64 -20.32 180)
 					(length 7.62)
 					(name "BATT"
@@ -1093,6 +1093,132 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -1256,6 +1382,92 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GNDA1_1"
+			(power)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDA1"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDA1_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "GNDA1_1_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1767,6 +1979,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "sym_lib:GNDA1"
 			(power)
 			(exclude_from_sim no)
@@ -1854,6 +2167,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "changed: SW, BST, BATT, MID to passive, SYS, VCC to power output"
+		(exclude_from_sim no)
+		(at 106.426 114.046 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1c4aea74-b9a8-4e4c-867d-05ed1985241d")
+	)
 	(text "can't find value of R_MID on datasheet anywhere so I put 0 for now"
 		(exclude_from_sim no)
 		(at 91.44 125.476 0)
@@ -1901,6 +2224,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03031988-54b0-4f38-a778-49cdb5224a9e")
+	)
+	(junction
+		(at 69.85 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15347b74-3bd1-445a-a41e-060b2d3e1f19")
 	)
 	(junction
 		(at 251.46 80.01)
@@ -1969,16 +2298,16 @@
 		(uuid "82b71821-05cc-4298-a696-5267fdbc0f7a")
 	)
 	(junction
+		(at 184.15 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94bdec09-89ba-43ea-8c97-fc06d5cfa785")
+	)
+	(junction
 		(at 238.76 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "999e8c3f-51c7-44e2-be55-ce5f6667a638")
-	)
-	(junction
-		(at 184.15 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b79b707f-962d-4171-8498-8f86863dcc1f")
 	)
 	(junction
 		(at 25.4 69.85)
@@ -2044,7 +2373,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 99.06) (xy 189.23 99.06)
+			(xy 168.91 99.06) (xy 184.15 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2071,16 +2400,6 @@
 			(type default)
 		)
 		(uuid "1af5c6cf-4061-4a2d-aeeb-44ac1cc82930")
-	)
-	(wire
-		(pts
-			(xy 168.91 99.06) (xy 184.15 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "219b0cb2-b7e4-4e89-ac00-dc617fa3b68e")
 	)
 	(wire
 		(pts
@@ -2344,6 +2663,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 93.98) (xy 76.2 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86f83785-4114-4835-b874-59ab9840db27")
+	)
+	(wire
+		(pts
 			(xy 96.52 82.55) (xy 100.33 82.55)
 		)
 		(stroke
@@ -2461,6 +2790,16 @@
 			(type default)
 		)
 		(uuid "bd22608d-660a-435f-bd85-2d24a4a13dd2")
+	)
+	(wire
+		(pts
+			(xy 184.15 99.06) (xy 189.23 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6935523-013b-4164-ac4f-49573843058b")
 	)
 	(wire
 		(pts
@@ -2786,7 +3125,7 @@
 	)
 	(global_label "BATT_GND"
 		(shape passive)
-		(at 184.15 106.68 270)
+		(at 184.15 104.14 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2796,7 +3135,7 @@
 		)
 		(uuid "8102b35c-3f1d-4603-964e-20230219b9c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.15 117.6858 90)
+			(at 184.15 115.1458 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2990,7 +3329,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0dd64777-bdae-4665-bd4f-ea9c94857bfb")
-		(property "Reference" "R_SDA"
+		(property "Reference" "R_SDA1"
 			(at 258.826 77.724 90)
 			(effects
 				(font
@@ -3008,7 +3347,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.524 78.994 90)
 			(effects
 				(font
@@ -3044,7 +3383,7 @@
 		(instances
 			(project "EPS_V1"
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/d6a7ca1d-fe68-467f-8233-74a5cf811189"
-					(reference "R_SDA")
+					(reference "R_SDA1")
 					(unit 1)
 				)
 			)
@@ -3077,7 +3416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 115.2652 88.9 0)
 			(effects
 				(font
@@ -3096,6 +3435,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 114.3 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "25V"
 			(at 114.3 85.09 0)
 			(effects
 				(font
@@ -3211,7 +3559,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AMELA2012S_1R5MT:IND_AMELA2012S-1R5MT"
 			(at 54.61 48.26 0)
 			(effects
 				(font
@@ -3230,6 +3578,15 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 54.61 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AMELA2012S-1R5MT"
 			(at 54.61 48.26 0)
 			(effects
 				(font
@@ -3262,7 +3619,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c513970-6aa6-4db9-889f-016bbb9a1011")
-		(property "Reference" "C_BATT"
+		(property "Reference" "C_BATT2"
 			(at 154.432 87.63 0)
 			(effects
 				(font
@@ -3280,7 +3637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 156.5148 82.55 0)
 			(effects
 				(font
@@ -3307,6 +3664,15 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" "16V"
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d14a8806-b923-4f9c-9e87-90e9c03d8933")
 		)
@@ -3316,76 +3682,7 @@
 		(instances
 			(project "EPS_V1"
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/d6a7ca1d-fe68-467f-8233-74a5cf811189"
-					(reference "C_BATT")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 184.15 102.87 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1d681db9-6040-4f3d-b625-32b0db03bc16")
-		(property "Reference" "R7"
-			(at 179.832 102.108 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0"
-			(at 181.102 104.648 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 183.134 102.616 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 184.15 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b4129396-99c9-42ee-89d1-e2935a45562e")
-		)
-		(pin "1"
-			(uuid "8ae78af1-ca99-46d5-b040-bd9548a47839")
-		)
-		(instances
-			(project "EPS_V1"
-				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/d6a7ca1d-fe68-467f-8233-74a5cf811189"
-					(reference "R7")
+					(reference "C_BATT2")
 					(unit 1)
 				)
 			)
@@ -3400,7 +3697,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1dc290d5-52ce-43b8-aad2-7584ff8b9853")
-		(property "Reference" "R_VBATT"
+		(property "Reference" "R_VBATT1"
 			(at 115.062 63.5 0)
 			(effects
 				(font
@@ -3418,7 +3715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 114.046 65.024 90)
 			(effects
 				(font
@@ -3454,7 +3751,7 @@
 		(instances
 			(project "EPS_V1"
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/d6a7ca1d-fe68-467f-8233-74a5cf811189"
-					(reference "R_VBATT")
+					(reference "R_VBATT1")
 					(unit 1)
 				)
 			)
@@ -3527,75 +3824,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 77.47 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "205c63b9-a261-45c9-91c2-beb55b8e10e8")
-		(property "Reference" "R"
-			(at 76.708 91.694 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 79.756 91.694 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.724 92.964 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 77.47 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bd433473-4fe7-4fe2-9263-c461f1d29ecc")
-		)
-		(pin "1"
-			(uuid "a8e8c1e5-721d-4f58-b176-3bd950ebb0b6")
-		)
-		(instances
-			(project "EPS_V1"
-				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/d6a7ca1d-fe68-467f-8233-74a5cf811189"
-					(reference "R")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
 		(at 224.79 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3603,7 +3831,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "235dbd81-12cd-465a-bcb0-4fd0ad63b873")
-		(property "Reference" "R_ALRT"
+		(property "Reference" "R_ALRT1"
 			(at 221.234 92.456 90)
 			(effects
 				(font
@@ -3621,7 +3849,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 225.044 89.154 90)
 			(effects
 				(font
@@ -3657,7 +3885,7 @@
 		(instances
 			(project "EPS_V1"
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/d6a7ca1d-fe68-467f-8233-74a5cf811189"
-					(reference "R_ALRT")
+					(reference "R_ALRT1")
 					(unit 1)
 				)
 			)
@@ -3867,7 +4095,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3039883f-e6b4-4b90-bb3c-b6d75d0d5bd6")
-		(property "Reference" "C_VCC"
+		(property "Reference" "C_VCC1"
 			(at 35.052 80.01 0)
 			(effects
 				(font
@@ -3885,7 +4113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 37.1348 74.93 0)
 			(effects
 				(font
@@ -3912,6 +4140,15 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" "16V"
+			(at 38.1 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8bafb78c-4863-40df-b8f6-bac710310197")
 		)
@@ -3921,7 +4158,7 @@
 		(instances
 			(project ""
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/d6a7ca1d-fe68-467f-8233-74a5cf811189"
-					(reference "C_VCC")
+					(reference "C_VCC1")
 					(unit 1)
 				)
 			)
@@ -4044,7 +4281,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d94c594-997b-4f46-ae43-48d2ec8acc35")
-		(property "Reference" "D_SDA"
+		(property "Reference" "D_SDA1"
 			(at 253.492 82.55 90)
 			(effects
 				(font
@@ -4062,7 +4299,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 251.46 83.82 0)
 			(effects
 				(font
@@ -4089,6 +4326,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "TVSL02V05C005 (check)"
+			(at 251.46 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "39ba2c9f-4348-4b29-932c-d94a747f2c61")
 		)
@@ -4098,7 +4344,7 @@
 		(instances
 			(project "EPS_V1"
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/d6a7ca1d-fe68-467f-8233-74a5cf811189"
-					(reference "D_SDA")
+					(reference "D_SDA1")
 					(unit 1)
 				)
 			)
@@ -4235,6 +4481,141 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 184.15 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "50f6950d-0eca-4829-a18d-f3f33ae9f80f")
+		(property "Reference" "NT3"
+			(at 179.324 100.584 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 174.752 102.616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
+			(at 184.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 184.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "07888b63-c1ba-4538-a021-1e97744c405a")
+		)
+		(pin "1"
+			(uuid "ec2218cb-02c3-45e8-9f1c-528c4ad8baee")
+		)
+		(instances
+			(project "EPS_V1"
+				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/d6a7ca1d-fe68-467f-8233-74a5cf811189"
+					(reference "NT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 69.85 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "528aa873-4a32-419c-a149-2f8b9058f30f")
+		(property "Reference" "#FLG04"
+			(at 69.85 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 69.85 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 69.85 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8da7f064-1439-4fe7-a90b-212e0a5d1c93")
+		)
+		(instances
+			(project "EPS_V1"
+				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/d6a7ca1d-fe68-467f-8233-74a5cf811189"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 106.68 73.66 0)
 		(unit 1)
@@ -4365,6 +4746,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 78.74 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63e74135-d637-4b84-9c7c-ddb2c629f6fc")
+		(property "Reference" "NT2"
+			(at 78.74 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 78.74 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
+			(at 78.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 78.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6f1ab62b-e60b-472c-ba8c-a962b304c84a")
+		)
+		(pin "1"
+			(uuid "01e09ec2-8dec-4774-b467-f48854c88e91")
+		)
+		(instances
+			(project ""
+				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/d6a7ca1d-fe68-467f-8233-74a5cf811189"
+					(reference "NT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 25.4 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65402978-f126-4e37-b6c1-efbb367767f6")
+		(property "Reference" "#FLG03"
+			(at 25.4 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 25.4 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 25.4 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db7fd93f-c751-4677-8b6e-a04e32dae24e")
+		)
+		(instances
+			(project ""
+				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/d6a7ca1d-fe68-467f-8233-74a5cf811189"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 96.52 99.06 0)
 		(unit 1)
@@ -4373,7 +4888,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7325c5c0-48db-4b32-a55c-5f83c89fc81f")
-		(property "Reference" "C_BATT"
+		(property "Reference" "C_BATT1"
 			(at 99.568 97.79 0)
 			(effects
 				(font
@@ -4391,7 +4906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 97.4852 102.87 0)
 			(effects
 				(font
@@ -4418,6 +4933,15 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" "25V"
+			(at 96.52 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1dac740b-d480-4156-9835-68510280588c")
 		)
@@ -4427,7 +4951,7 @@
 		(instances
 			(project "EPS_V1"
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/d6a7ca1d-fe68-467f-8233-74a5cf811189"
-					(reference "C_BATT")
+					(reference "C_BATT1")
 					(unit 1)
 				)
 			)
@@ -4442,7 +4966,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78cd6501-cd40-48e3-8335-8d66c32bbe1c")
-		(property "Reference" "R_SCL"
+		(property "Reference" "R_SCL1"
 			(at 240.284 85.09 90)
 			(effects
 				(font
@@ -4460,7 +4984,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 242.824 81.534 90)
 			(effects
 				(font
@@ -4496,7 +5020,7 @@
 		(instances
 			(project "EPS_V1"
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/d6a7ca1d-fe68-467f-8233-74a5cf811189"
-					(reference "R_SCL")
+					(reference "R_SCL1")
 					(unit 1)
 				)
 			)
@@ -4511,7 +5035,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ccd6567-19bc-48a9-9a5e-4694af5f910c")
-		(property "Reference" "R_BATT"
+		(property "Reference" "R_BATT1"
 			(at 154.686 80.264 90)
 			(effects
 				(font
@@ -4529,7 +5053,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 151.384 81.534 90)
 			(effects
 				(font
@@ -4565,7 +5089,7 @@
 		(instances
 			(project "EPS_V1"
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/d6a7ca1d-fe68-467f-8233-74a5cf811189"
-					(reference "R_BATT")
+					(reference "R_BATT1")
 					(unit 1)
 				)
 			)
@@ -4580,7 +5104,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7de09dd1-cc1b-4ae3-9f80-8055fcf509e6")
-		(property "Reference" "R_SENSE"
+		(property "Reference" "R_SENSE1"
 			(at 188.976 101.854 90)
 			(effects
 				(font
@@ -4598,7 +5122,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 192.786 100.076 90)
 			(effects
 				(font
@@ -4634,15 +5158,16 @@
 		(instances
 			(project "EPS_V1"
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/d6a7ca1d-fe68-467f-8233-74a5cf811189"
-					(reference "R_SENSE")
+					(reference "R_SENSE1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "GNDA1_1")
 		(lib_id "sym_lib:GNDA1")
-		(at 73.66 93.98 0)
+		(at 69.85 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4650,7 +5175,7 @@
 		(dnp no)
 		(uuid "7e538c43-c6ea-4716-9f9e-a266258dfb13")
 		(property "Reference" "#PWR010"
-			(at 73.66 93.98 0)
+			(at 69.85 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4659,7 +5184,7 @@
 			)
 		)
 		(property "Value" "GNDA1"
-			(at 73.66 98.044 0)
+			(at 69.85 98.044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4667,7 +5192,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 93.98 0)
+			(at 69.85 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4676,7 +5201,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 93.98 0)
+			(at 69.85 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4685,7 +5210,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.66 93.98 0)
+			(at 69.85 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4714,7 +5239,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "838a19c1-4726-4e53-b4bd-afe05b0c234b")
-		(property "Reference" "LED_STAT"
+		(property "Reference" "LED_STAT1"
 			(at 124.714 55.88 90)
 			(effects
 				(font
@@ -4730,7 +5255,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 118.11 55.88 0)
 			(effects
 				(font
@@ -4766,6 +5291,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "LTST-C170KFKT"
+			(at 118.11 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "87885bb0-ba91-41c4-9846-ed2843f9cdfd")
 		)
@@ -4775,7 +5309,7 @@
 		(instances
 			(project "EPS_V1"
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/d6a7ca1d-fe68-467f-8233-74a5cf811189"
-					(reference "LED_STAT")
+					(reference "LED_STAT1")
 					(unit 1)
 				)
 			)
@@ -4855,7 +5389,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e9a496a-7635-4374-9fac-b9418b42a3e1")
-		(property "Reference" "C_IN"
+		(property "Reference" "C_IN1"
 			(at 37.084 45.72 0)
 			(effects
 				(font
@@ -4873,7 +5407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 35.2552 50.8 0)
 			(effects
 				(font
@@ -4900,6 +5434,15 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" "25V"
+			(at 34.29 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8dd5ed65-0e18-40b8-9110-b14344f8cb1d")
 		)
@@ -4909,7 +5452,7 @@
 		(instances
 			(project ""
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/d6a7ca1d-fe68-467f-8233-74a5cf811189"
-					(reference "C_IN")
+					(reference "C_IN1")
 					(unit 1)
 				)
 			)
@@ -5107,7 +5650,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9aef8a65-2cf0-4659-b220-55204ee865a1")
-		(property "Reference" "LED_ACOK"
+		(property "Reference" "LED_ACOK1"
 			(at 103.886 49.784 90)
 			(effects
 				(font
@@ -5123,7 +5666,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 110.49 50.8 0)
 			(effects
 				(font
@@ -5159,6 +5702,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "LTST-C171KGKT"
+			(at 110.49 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5c7a3773-48d8-4165-8a92-19d172bec848")
 		)
@@ -5168,7 +5720,7 @@
 		(instances
 			(project ""
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/d6a7ca1d-fe68-467f-8233-74a5cf811189"
-					(reference "LED_ACOK")
+					(reference "LED_ACOK1")
 					(unit 1)
 				)
 			)
@@ -5248,7 +5800,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a336ee86-f9ed-4374-8836-8a0da6864a39")
-		(property "Reference" "R_MID"
+		(property "Reference" "R_MID1"
 			(at 57.912 80.01 0)
 			(effects
 				(font
@@ -5266,7 +5818,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 58.674 78.486 90)
 			(effects
 				(font
@@ -5302,7 +5854,7 @@
 		(instances
 			(project "EPS_V1"
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/d6a7ca1d-fe68-467f-8233-74a5cf811189"
-					(reference "R_MID")
+					(reference "R_MID1")
 					(unit 1)
 				)
 			)
@@ -5382,7 +5934,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8abad72-704f-4d1f-9746-d7678b318608")
-		(property "Reference" "R_L"
+		(property "Reference" "R_L1"
 			(at 23.368 74.93 0)
 			(effects
 				(font
@@ -5400,7 +5952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 24.384 73.406 90)
 			(effects
 				(font
@@ -5436,7 +5988,7 @@
 		(instances
 			(project ""
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/d6a7ca1d-fe68-467f-8233-74a5cf811189"
-					(reference "R_L")
+					(reference "R_L1")
 					(unit 1)
 				)
 			)
@@ -5516,7 +6068,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b00af0a2-e077-4e59-a2e7-585932be6f5f")
-		(property "Reference" "R_H"
+		(property "Reference" "R_H1"
 			(at 23.368 67.31 0)
 			(effects
 				(font
@@ -5534,7 +6086,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 24.384 65.786 90)
 			(effects
 				(font
@@ -5570,7 +6122,7 @@
 		(instances
 			(project ""
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/d6a7ca1d-fe68-467f-8233-74a5cf811189"
-					(reference "R_H")
+					(reference "R_H1")
 					(unit 1)
 				)
 			)
@@ -5668,7 +6220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 161.5948 95.25 0)
 			(effects
 				(font
@@ -5687,6 +6239,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 162.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "16V"
 			(at 162.56 99.06 0)
 			(effects
 				(font
@@ -5719,7 +6280,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7ef98c2-c341-4be2-acc2-ece4fc23cf6e")
-		(property "Reference" "R_ACOK"
+		(property "Reference" "R_ACOK1"
 			(at 108.458 44.45 0)
 			(effects
 				(font
@@ -5737,7 +6298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 109.474 42.926 90)
 			(effects
 				(font
@@ -5773,7 +6334,7 @@
 		(instances
 			(project "EPS_V1"
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/d6a7ca1d-fe68-467f-8233-74a5cf811189"
-					(reference "R_ACOK")
+					(reference "R_ACOK1")
 					(unit 1)
 				)
 			)
@@ -5788,7 +6349,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d42810f4-5516-4e22-b4b5-7d76bcdd526c")
-		(property "Reference" "R_STAT"
+		(property "Reference" "R_STAT1"
 			(at 120.142 46.99 0)
 			(effects
 				(font
@@ -5806,7 +6367,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 119.126 48.514 90)
 			(effects
 				(font
@@ -5842,7 +6403,7 @@
 		(instances
 			(project "EPS_V1"
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/d6a7ca1d-fe68-467f-8233-74a5cf811189"
-					(reference "R_STAT")
+					(reference "R_STAT1")
 					(unit 1)
 				)
 			)
@@ -5857,7 +6418,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db131f00-d06d-4b80-8d5e-f67673154703")
-		(property "Reference" "C_SYS"
+		(property "Reference" "C_SYS2"
 			(at 104.648 83.82 0)
 			(effects
 				(font
@@ -5875,7 +6436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 102.5652 88.9 0)
 			(effects
 				(font
@@ -5902,6 +6463,15 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" "25V"
+			(at 101.6 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "69dcd1ad-7fcf-4446-8a2f-119fbafdddb5")
 		)
@@ -5911,7 +6481,7 @@
 		(instances
 			(project ""
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/d6a7ca1d-fe68-467f-8233-74a5cf811189"
-					(reference "C_SYS")
+					(reference "C_SYS2")
 					(unit 1)
 				)
 			)
@@ -5926,7 +6496,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc11d343-5cbe-4b9e-a73a-8c6a732468f4")
-		(property "Reference" "C_BST"
+		(property "Reference" "C_BST1"
 			(at 51.308 57.15 0)
 			(effects
 				(font
@@ -5935,7 +6505,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "0.1u"
 			(at 51.308 54.61 0)
 			(effects
 				(font
@@ -5944,7 +6514,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 53.6448 52.07 0)
 			(effects
 				(font
@@ -5971,6 +6541,15 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" "16V"
+			(at 54.61 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b8fd0a5f-b5c4-4f57-8d76-e07a5069d173")
 		)
@@ -5980,7 +6559,7 @@
 		(instances
 			(project ""
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/d6a7ca1d-fe68-467f-8233-74a5cf811189"
-					(reference "C_BST")
+					(reference "C_BST1")
 					(unit 1)
 				)
 			)
@@ -5995,7 +6574,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df283f29-d17b-42b9-a5c8-94a34ff78205")
-		(property "Reference" "D_ALRT"
+		(property "Reference" "D_ALRT1"
 			(at 211.074 92.964 90)
 			(effects
 				(font
@@ -6013,7 +6592,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 219.71 93.98 0)
 			(effects
 				(font
@@ -6040,6 +6619,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "TVSL02V05C005 (check)"
+			(at 219.71 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "db27a234-be2d-40c9-9d3b-2ab3fce1c878")
 		)
@@ -6049,7 +6637,7 @@
 		(instances
 			(project ""
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/d6a7ca1d-fe68-467f-8233-74a5cf811189"
-					(reference "D_ALRT")
+					(reference "D_ALRT1")
 					(unit 1)
 				)
 			)
@@ -6064,7 +6652,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7560e3b-d803-4d2b-95bf-3106e89d40d9")
-		(property "Reference" "D_SCL"
+		(property "Reference" "D_SCL1"
 			(at 231.14 85.09 90)
 			(effects
 				(font
@@ -6082,7 +6670,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 238.76 86.36 0)
 			(effects
 				(font
@@ -6109,6 +6697,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "TVSL02V05C005 (check)"
+			(at 238.76 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e81a8b85-3aef-46e9-8552-b7fdff97c6e2")
 		)
@@ -6118,7 +6715,7 @@
 		(instances
 			(project "EPS_V1"
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/d6a7ca1d-fe68-467f-8233-74a5cf811189"
-					(reference "D_SCL")
+					(reference "D_SCL1")
 					(unit 1)
 				)
 			)
@@ -6216,7 +6813,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 167.3352 115.57 0)
 			(effects
 				(font
@@ -6235,6 +6832,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 166.37 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "16V"
 			(at 166.37 111.76 0)
 			(effects
 				(font
@@ -6332,7 +6938,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff8e3f49-1ec9-4d8a-998a-97cc6fc683d5")
-		(property "Reference" "R_ISET"
+		(property "Reference" "R_ISET1"
 			(at 44.958 102.87 0)
 			(effects
 				(font
@@ -6350,7 +6956,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 44.196 104.394 90)
 			(effects
 				(font
@@ -6386,7 +6992,7 @@
 		(instances
 			(project "EPS_V1"
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/d6a7ca1d-fe68-467f-8233-74a5cf811189"
-					(reference "R_ISET")
+					(reference "R_ISET1")
 					(unit 1)
 				)
 			)
