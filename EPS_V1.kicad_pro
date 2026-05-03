@@ -518,7 +518,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "../EPS_V1.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -585,13 +585,31 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
           "show": false
+        },
+        {
+          "group_by": true,
+          "label": "Voltage Rating",
+          "name": "Voltage Rating",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -650,13 +668,17 @@
         "uuid": "85157432-5d03-48fa-ab40-27ed3d133f47"
       }
     ],
-    "used_designators": "J5-7",
+    "used_designators": "#FLG5-6,L2,C1B1,C2C1,C2B1,R6-15,C2A1,D5,#PWR32-33,#PWR35-37,#PWR58-68,U4,U7,C8,C10-16,C1A1,J5-7",
     "variants": []
   },
   "sheets": [
     [
       "85157432-5d03-48fa-ab40-27ed3d133f47",
       "EPS_V1"
+    ],
+    [
+      "200409e9-92e5-48dc-b89e-cefaee3c74ba",
+      "Charging inputs"
     ],
     [
       "dccdebb8-bc98-4226-b239-70e380ba944d",
