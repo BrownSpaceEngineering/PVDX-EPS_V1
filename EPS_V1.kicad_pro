@@ -668,7 +668,7 @@
         "uuid": "85157432-5d03-48fa-ab40-27ed3d133f47"
       }
     ],
-    "used_designators": "#FLG5-6,L2,C1B1,C2C1,C2B1,R6-15,C2A1,D5,#PWR32-33,#PWR35-37,#PWR58-68,U4,U7,C8,C10-16,C1A1,J5-7",
+    "used_designators": "C_REG4-11,#PWR63-65,#PWR69-141,R_ISET2-5,D1-4,R_BATT2-5,SW1-2,#FLG3,#FLG6-13,D_SCL2-5,C_BATT3-10,C_BST2-5,L_2-5,C_IN2-5,C_SYS3-10,C_VCC2-5,D_ALRT2-5,D_SDA2-5,LED_ACOK2-5,R_ALRT2-5,LED_STAT2-5,NT4-11,R_ACOK2-5,R_H2-5,R_L2-5,R_MID2-5,U8-15,R_SCL2-5,R_SDA2-5,R_SENSE2-5,R_STAT2-5,R_VBATT2-5,R_T2-8",
     "variants": []
   },
   "sheets": [
@@ -678,7 +678,7 @@
     ],
     [
       "200409e9-92e5-48dc-b89e-cefaee3c74ba",
-      "Charging inputs"
+      "Charging Inputs"
     ],
     [
       "dccdebb8-bc98-4226-b239-70e380ba944d",
@@ -691,6 +691,18 @@
     [
       "d6a7ca1d-fe68-467f-8233-74a5cf811189",
       "Battery Pack 1"
+    ],
+    [
+      "1a447d2c-bf0d-40e4-b56c-2660ef69d96a",
+      "Battery Pack 2"
+    ],
+    [
+      "eb164b0c-5007-4f8f-b822-af0e1d9e197d",
+      "Battery Pack 3"
+    ],
+    [
+      "5659a67b-3108-4102-8b7c-09d96e8fb3f7",
+      "Battery Pack 4"
     ]
   ],
   "text_variables": {},

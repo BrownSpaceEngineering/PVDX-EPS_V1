@@ -1,73 +1,58 @@
-(footprint "Switch"
-	(version 20241229)
+(footprint "D2F-L3-D-HORIZONTAL-L"
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
-		(unlocked yes)
+		(at 6.85 -1.4 0)
 		(layer "F.SilkS")
-		(uuid "fe2028d9-eb53-4676-b83c-deec93d1ca17")
+		(hide yes)
+		(uuid "6acba837-fd6c-49c1-b262-bc5b65f33301")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.1)
+				(size 0.508 0.508)
+				(thickness 0.127)
 			)
+			(justify left bottom)
 		)
 	)
-	(property "Value" "Switch"
-		(at 0 1 0)
-		(unlocked yes)
+	(property "Value" "Val**"
+		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "7d297ff6-ab32-4390-8293-254c815a356a")
+		(hide yes)
+		(uuid "bc0bfa31-89ea-4a5e-9346-0d0874575af5")
 		(effects
 			(font
-				(size 1 1)
+				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
 	)
 	(property "Datasheet" ""
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0c5243e0-0b27-418e-91c2-bed7d7c1b3d8")
+		(uuid "bd96e0f8-eb5e-4e3b-9130-48189a1431dc")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 1.27 1.27)
 			)
 		)
 	)
 	(property "Description" ""
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "99c139c7-29c3-4031-a9dd-60e422e7ee01")
+		(uuid "51ac56c9-dec4-4997-9261-3acbb2e2ced8")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 1.27 1.27)
 			)
 		)
 	)
-	(attr smd)
-	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "6be33a9b-f37d-4e6c-95bf-79feb2a9da14")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(pad "C" thru_hole roundrect
-		(at -5.1 0 225)
+		(at -2.5 0 225)
 		(size 1.35 1.35)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
@@ -77,10 +62,10 @@
 		(chamfer top_left top_right bottom_left bottom_right)
 		(solder_mask_margin 0.0635)
 		(thermal_bridge_angle 0)
-		(uuid "d2d2ee04-6d2f-4097-b95c-38873e8b85f1")
+		(uuid "9551624f-89cb-4371-9c4a-75ae5048268a")
 	)
 	(pad "NC" thru_hole roundrect
-		(at 5.1 0 315)
+		(at 2.5 0 315)
 		(size 1.35 1.35)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
@@ -90,7 +75,7 @@
 		(chamfer top_left top_right bottom_left bottom_right)
 		(solder_mask_margin 0.0635)
 		(thermal_bridge_angle 0)
-		(uuid "cb6f088c-9126-494a-8db8-690bf383e61c")
+		(uuid "585218a5-6d87-46ee-8d68-9845213ae4e0")
 	)
 	(pad "NO" thru_hole roundrect
 		(at 0 0 270)
@@ -103,7 +88,7 @@
 		(chamfer top_left top_right bottom_left bottom_right)
 		(solder_mask_margin 0.0635)
 		(thermal_bridge_angle 0)
-		(uuid "f7535695-5029-4c6d-bc55-0169112b4a34")
+		(uuid "00aa54bd-de22-449c-af4a-d56db7c6b5ed")
 	)
 	(embedded_fonts no)
 )

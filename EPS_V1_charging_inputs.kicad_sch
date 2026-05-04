@@ -1825,6 +1825,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "7V 2A max"
 		(exclude_from_sim no)
@@ -1846,7 +1961,7 @@
 		)
 		(uuid "281eb4dc-63ee-46cc-87dd-d2c4611a3c5a")
 	)
-	(text "Selects between 5V USBC input and solar input, prefers USBC input if present"
+	(text "Selects between 5V external input and solar input, prefers external input if present"
 		(exclude_from_sim no)
 		(at 195.58 23.622 0)
 		(effects
@@ -2055,6 +2170,12 @@
 		(uuid "d638fd20-1783-429b-ac6e-f0dd48f1a1a5")
 	)
 	(junction
+		(at 173.99 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1d2eefd-6d24-481c-bae6-93890d4d5e4d")
+	)
+	(junction
 		(at 119.38 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2239,6 +2360,16 @@
 			(type default)
 		)
 		(uuid "3465f79f-81aa-4886-855e-333cc93e9178")
+	)
+	(wire
+		(pts
+			(xy 173.99 34.29) (xy 176.53 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "391bab21-a4b1-4873-8242-98cde6e45a60")
 	)
 	(wire
 		(pts
@@ -2792,7 +2923,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 34.29) (xy 176.53 34.29)
+			(xy 153.67 34.29) (xy 173.99 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3380,7 +3511,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 104.394 74.676 90)
 			(hide yes)
 			(show_name no)
@@ -3632,7 +3763,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 87.884 44.196 90)
 			(hide yes)
 			(show_name no)
@@ -3805,7 +3936,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 171.45 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -3990,7 +4121,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 76.454 55.626 90)
 			(hide yes)
 			(show_name no)
@@ -4664,7 +4795,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 166.624 54.356 90)
 			(hide yes)
 			(show_name no)
@@ -4744,7 +4875,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 159.766 46.736 90)
 			(hide yes)
 			(show_name no)
@@ -5241,7 +5372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 160.9852 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -5323,7 +5454,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 87.884 55.626 90)
 			(hide yes)
 			(show_name no)
@@ -5484,7 +5615,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RUX0012A"
+		(property "Footprint" "TPS2121RUXR:RUX0012A"
 			(at 133.35 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -5598,7 +5729,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 76.454 45.466 90)
 			(hide yes)
 			(show_name no)
@@ -5680,7 +5811,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 104.394 63.246 90)
 			(hide yes)
 			(show_name no)
@@ -6109,6 +6240,84 @@
 			(project "EPS_V1"
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/200409e9-92e5-48dc-b89e-cefaee3c74ba"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 173.99 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da7fd899-0cc2-4a42-ac91-39592a5a22de")
+		(property "Reference" "#FLG03"
+			(at 173.99 32.385 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 173.99 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 173.99 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c2c37f9b-2d4e-4eff-bd7c-c0cd1cc405eb")
+		)
+		(instances
+			(project "EPS_V1"
+				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/200409e9-92e5-48dc-b89e-cefaee3c74ba"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
