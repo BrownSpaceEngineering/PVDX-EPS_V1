@@ -3,6 +3,8 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
+        "apply_defaults_to_fp_barcodes": false,
+        "apply_defaults_to_fp_dimensions": false,
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
@@ -51,7 +53,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -71,10 +79,11 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
-        "hole_to_hole": "warning",
+        "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -88,13 +97,14 @@
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
+        "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -107,9 +117,12 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
+        "track_not_centered_on_via": "ignore",
+        "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
+        "tuning_profile_track_geometries": "ignore",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -117,22 +130,22 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_clearance": 0.1,
+        "min_connection": 0.1,
+        "min_copper_edge_clearance": 0.0,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.2,
-        "min_microvia_drill": 0.1,
+        "min_hole_clearance": 0.0,
+        "min_hole_to_hole": 0.127,
+        "min_microvia_diameter": 0.4572,
+        "min_microvia_drill": 0.254,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_text_height": 0.508,
+        "min_text_thickness": 0.127,
+        "min_through_hole_diameter": 0.254,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.4572,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -148,7 +161,7 @@
       "teardrop_parameters": [
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -159,7 +172,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -170,7 +183,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -180,7 +193,20 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.127,
+        0.15,
+        0.2,
+        0.25,
+        0.254,
+        0.3,
+        0.4,
+        0.5,
+        1.0,
+        2.0,
+        3.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +233,16 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.4572,
+          "drill": 0.254
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -473,7 +508,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -486,8 +521,44 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.4572,
+        "via_drill": 0.254,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "BATTERY",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.127,
+        "tuning_profile": "",
+        "via_diameter": 0.4572,
+        "via_drill": 0.254,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "SHUTDOWN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "tuning_profile": "",
+        "via_diameter": 0.4572,
+        "via_drill": 0.254,
         "wire_width": 6
       }
     ],
@@ -496,7 +567,80 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "SHUTDOWN",
+        "pattern": "~{SD}"
+      },
+      {
+        "netclass": "BATTERY",
+        "pattern": "VBUS"
+      },
+      {
+        "netclass": "BATTERY",
+        "pattern": "VBATT-PK1"
+      },
+      {
+        "netclass": "BATTERY",
+        "pattern": "VBATT-F-PK1"
+      },
+      {
+        "netclass": "BATTERY",
+        "pattern": "N$42"
+      },
+      {
+        "netclass": "BATTERY",
+        "pattern": "N$53"
+      },
+      {
+        "netclass": "BATTERY",
+        "pattern": "INTERCELL-PK1"
+      },
+      {
+        "netclass": "BATTERY",
+        "pattern": "VBATT-F-PK2"
+      },
+      {
+        "netclass": "BATTERY",
+        "pattern": "N$82"
+      },
+      {
+        "netclass": "BATTERY",
+        "pattern": "N$85"
+      },
+      {
+        "netclass": "BATTERY",
+        "pattern": "INTERCELL-PK2"
+      },
+      {
+        "netclass": "BATTERY",
+        "pattern": "CSP-PK1"
+      },
+      {
+        "netclass": "BATTERY",
+        "pattern": "CSP-PK2"
+      },
+      {
+        "netclass": "BATTERY",
+        "pattern": "VBATT-PK2"
+      },
+      {
+        "netclass": "BATTERY",
+        "pattern": "N$100"
+      },
+      {
+        "netclass": "BATTERY",
+        "pattern": "N$48"
+      },
+      {
+        "netclass": "BATTERY",
+        "pattern": "N$109"
+      },
+      {
+        "netclass": "BATTERY",
+        "pattern": "N$9"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -668,7 +812,7 @@
         "uuid": "85157432-5d03-48fa-ab40-27ed3d133f47"
       }
     ],
-    "used_designators": "C_REG4-11,#PWR63-65,#PWR69-141,R_ISET2-5,D1-4,R_BATT2-5,SW1-2,#FLG3,#FLG6-13,D_SCL2-5,C_BATT3-10,C_BST2-5,L_2-5,C_IN2-5,C_SYS3-10,C_VCC2-5,D_ALRT2-5,D_SDA2-5,LED_ACOK2-5,R_ALRT2-5,LED_STAT2-5,NT4-11,R_ACOK2-5,R_H2-5,R_L2-5,R_MID2-5,U8-15,R_SCL2-5,R_SDA2-5,R_SENSE2-5,R_STAT2-5,R_VBATT2-5,R_T2-8",
+    "used_designators": "D_ALRT1,NT10,R_ALRT1,J1-4,#PWR16,#PWR25,#PWR27-30,#PWR42,#PWR50,#PWR81,#PWR128",
     "variants": []
   },
   "sheets": [

@@ -1,4 +1,4 @@
-(footprint "D2F-L3-D-HORIZONTAL-L"
+(footprint "RBF"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -7,7 +7,7 @@
 		(at 6.85 -1.4 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "6acba837-fd6c-49c1-b262-bc5b65f33301")
+		(uuid "673b40a4-8167-49cb-8945-41ef5ba08458")
 		(effects
 			(font
 				(size 0.508 0.508)
@@ -20,7 +20,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bc0bfa31-89ea-4a5e-9346-0d0874575af5")
+		(uuid "1dbd0c02-f4b0-4006-a2bc-ea954e75c6b1")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bd96e0f8-eb5e-4e3b-9130-48189a1431dc")
+		(uuid "284cb090-f83c-44f1-9db3-9522eaf06481")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "51ac56c9-dec4-4997-9261-3acbb2e2ced8")
+		(uuid "3e87aeba-f6d3-45b6-9680-c7c26a8a2434")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51,8 +51,8 @@
 		)
 	)
 	(duplicate_pad_numbers_are_jumpers no)
-	(pad "C" thru_hole roundrect
-		(at -2.5 0 225)
+	(pad "1" thru_hole roundrect
+		(at -1.5 0 225)
 		(size 1.35 1.35)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
@@ -62,10 +62,10 @@
 		(chamfer top_left top_right bottom_left bottom_right)
 		(solder_mask_margin 0.0635)
 		(thermal_bridge_angle 0)
-		(uuid "9551624f-89cb-4371-9c4a-75ae5048268a")
+		(uuid "7c08fd57-3c23-4ffb-88c7-3daed543f414")
 	)
-	(pad "NC" thru_hole roundrect
-		(at 2.5 0 315)
+	(pad "2" thru_hole roundrect
+		(at 1.5 0 270)
 		(size 1.35 1.35)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
@@ -75,20 +75,7 @@
 		(chamfer top_left top_right bottom_left bottom_right)
 		(solder_mask_margin 0.0635)
 		(thermal_bridge_angle 0)
-		(uuid "585218a5-6d87-46ee-8d68-9845213ae4e0")
-	)
-	(pad "NO" thru_hole roundrect
-		(at 0 0 270)
-		(size 1.35 1.35)
-		(drill 0.9)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(roundrect_rratio 0.25)
-		(chamfer_ratio 0.2928932188)
-		(chamfer top_left top_right bottom_left bottom_right)
-		(solder_mask_margin 0.0635)
-		(thermal_bridge_angle 0)
-		(uuid "00aa54bd-de22-449c-af4a-d56db7c6b5ed")
+		(uuid "16d4bdca-5c9f-485c-ba21-3b36b72ed5ff")
 	)
 	(embedded_fonts no)
 )

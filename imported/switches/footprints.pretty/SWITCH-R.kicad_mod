@@ -1,4 +1,4 @@
-(footprint "D2F-L3-D-HORIZONTAL-R"
+(footprint "SWITCH-R"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -7,7 +7,7 @@
 		(at 6.85 -1.4 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "8d0eadc5-925a-4a77-b74c-cc9001be0101")
+		(uuid "8affcaec-c28e-485c-b871-d9c31e6f2470")
 		(effects
 			(font
 				(size 0.508 0.508)
@@ -20,7 +20,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "680a7785-807b-46f7-8985-402126ec72e6")
+		(uuid "c057e2f0-92a0-4333-86fc-e0aed40e1678")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1a9aac15-faa9-4210-82de-c04d2a8b48a0")
+		(uuid "8db6b915-d62e-48c6-afc9-36a30cf6496e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a7ce7aa3-59a9-4570-8e37-d6b5cc2ea8d5")
+		(uuid "e315309a-1455-455d-966d-fd9928955234")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -62,7 +62,7 @@
 		(chamfer top_left top_right bottom_left bottom_right)
 		(solder_mask_margin 0.0635)
 		(thermal_bridge_angle 0)
-		(uuid "72131aaa-aa4a-4c0c-ae9a-71773f4eb8bf")
+		(uuid "803b2548-9b8e-4f42-b128-61f3b7393be6")
 	)
 	(pad "NC" thru_hole roundrect
 		(at -2.5 0 225)
@@ -75,7 +75,7 @@
 		(chamfer top_left top_right bottom_left bottom_right)
 		(solder_mask_margin 0.0635)
 		(thermal_bridge_angle 0)
-		(uuid "11098223-0b5a-4bac-bf53-eab2306c6150")
+		(uuid "31cf946a-282a-410e-98d8-78a54faedf8c")
 	)
 	(pad "NO" thru_hole roundrect
 		(at 0 0 270)
@@ -88,7 +88,7 @@
 		(chamfer top_left top_right bottom_left bottom_right)
 		(solder_mask_margin 0.0635)
 		(thermal_bridge_angle 0)
-		(uuid "ea75b352-7a08-479e-99f6-ea174777fc6a")
+		(uuid "167460f6-0bf1-414e-a4e5-307387210209")
 	)
 	(embedded_fonts no)
 )
