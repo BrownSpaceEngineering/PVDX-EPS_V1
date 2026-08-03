@@ -812,7 +812,7 @@
         "uuid": "85157432-5d03-48fa-ab40-27ed3d133f47"
       }
     ],
-    "used_designators": "D_ALRT1,NT10,R_ALRT1,J1-4,#PWR16,#PWR25,#PWR27-30,#PWR42,#PWR50,#PWR81,#PWR128",
+    "used_designators": "#PWR30",
     "variants": []
   },
   "sheets": [
