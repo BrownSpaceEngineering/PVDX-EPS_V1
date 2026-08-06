@@ -1,1 +1,31 @@
 EPS_V1-backups/
+# KiCad backups & autosave
+*-backups/
+_autosave-*
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+
+# KiCad auto-generated caches (regenerated on open, don't track)
+fp-info-cache
+*.lck
+*-lock
+
+# Project-local settings (see note below — team choice)
+*.kicad_prl
+
+# LTSpice regeneratable run output (keep .asc and spice_models/, drop the rest)
+*.raw
+*.op.raw
+*.log
+ltspice/plots/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor junk
+*.swp
+.vscode/
+.history/
+.history_trim/
