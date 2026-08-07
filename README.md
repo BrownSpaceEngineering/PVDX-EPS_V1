@@ -5,7 +5,7 @@ Electrical Power System for PVDX — battery charging, regulation, and power dis
 ## Status
 - Design phase: layout
 - Current rev: rev-1.2
-- Contributors: Kelly Lin, Jayla Hsiung, Dean Zweiman, Nick Cavallo
+- Contributors: Kelly Lin, Jayla Hsiung, Nick Cavallo, Emily Zhang, Dean Zweiman
 
 ## System overview
 
