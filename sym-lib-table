@@ -8,4 +8,7 @@
 	(lib (name "MAX17205G") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/MAX17205G.kicad_sym") (options "") (descr ""))
 	(lib (name "TPS61088RHLR") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/TPS61088RHLR.kicad_sym") (options "") (descr ""))
 	(lib (name "TPS2121RUXR") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/TPS2121RUXR.kicad_sym") (options "") (descr ""))
+	(lib (name "AMELA2012S-1R5MT") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/AMELA2012S-1R5MT.kicad_sym") (options "") (descr ""))
+	(lib (name "ASPI-7318-4R7M-T") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/ASPI-7318-4R7M-T.kicad_sym") (options "") (descr ""))
+	(lib (name "IFSC1515AHER2R2M01") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/IFSC1515AHER2R2M01.kicad_sym") (options "") (descr ""))
 )
