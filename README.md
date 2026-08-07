@@ -53,7 +53,7 @@ EPS_V1/
 ## Simulations
 - `spice/sims/` — EPS_U6, U2_EPS, U3_EPS, U6_EPS (regulator sims)
 - `spice/models/` — TI PSpice models for TPS61088/TPS62132/TPS62133, both original and LTSpice-collapsed versions
-- `spice/translator/` — script + requirements to collapse TI's multi-line `.lib` continuation format into something LTSpice's autogenerator can parse
+- `tools/` — script + requirements to collapse TI's multi-line `.lib` continuation format into something LTSpice's autogenerator can parse
 
 ## Manufacturing history
 | Rev | Date | Notes | Location |
