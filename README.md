@@ -31,8 +31,7 @@ EPS_V1/
 │   └── 3dmodels/
 ├── spice/
 │   ├── sims/
-│   ├── models/
-│   └── translator/
+│   └── models/
 ├── tools/                # SPICE model translator script
 └── manufacturing/
     └── rev-<N>_<date>/
