@@ -1,6 +1,6 @@
 # EPS_V1
 
-Electrical Power System for PVDX — battery charging, regulation, and power distribution.
+Electrical Power System (EPS) for PVDX — battery charging, regulation, and power distribution.
 
 ## Status
 - Design phase: layout
