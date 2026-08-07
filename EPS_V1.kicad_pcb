@@ -131,7 +131,7 @@
 			(outputdirectory "")
 		)
 	)
-	(footprint "MAX17205G:21-0137_T1433&plus_2C_MXM"
+	(footprint "footprints:21-0137_T1433&plus_2C_MXM"
 		(layer "F.Cu")
 		(uuid "00fdfc7f-ae95-4ec4-8aa4-f9d974a6187f")
 		(at 87.175062 126.282996 90)
@@ -1674,7 +1674,7 @@
 			)
 		)
 	)
-	(footprint "MP2672AGD_0000_Z:QFN-18_MP2672A_MNP"
+	(footprint "footprints:QFN-18_MP2672A_MNP"
 		(layer "F.Cu")
 		(uuid "0cc75968-a596-4d78-baa5-287bc2a9f386")
 		(at 128.151563 112.349296)
@@ -3323,7 +3323,7 @@
 			)
 		)
 	)
-	(footprint "TPS62133RGTR:RGT0016C"
+	(footprint "footprints:RGT0016C"
 		(layer "F.Cu")
 		(uuid "1f7af3bd-e490-4567-94bf-f770471eca93")
 		(at 73.121939 95.968081)
@@ -4322,7 +4322,7 @@
 			)
 		)
 	)
-	(footprint "AMELA2012S_1R5MT:IND_AMELA2012S-1R5MT"
+	(footprint "footprints:IND_AMELA2012S-1R5MT"
 		(layer "F.Cu")
 		(uuid "27e949c0-06c2-4e2a-8020-fa3c3da63170")
 		(at 116.525062 81.383796 -90)
@@ -5094,7 +5094,7 @@
 			)
 		)
 	)
-	(footprint "IFSC1515AHER2R2M01:IND_IFSC_1515AH_VIS"
+	(footprint "footprints:IND_IFSC_1515AH_VIS"
 		(layer "F.Cu")
 		(uuid "2e2e13a8-c599-4bf2-adf4-4ee239b85859")
 		(at 68.700062 105.496196 90)
@@ -5756,7 +5756,7 @@
 			)
 		)
 	)
-	(footprint "MP28167GQ-Z:QFN-16_MP28167GQ_MNP"
+	(footprint "footprints:QFN-16_MP28167GQ_MNP"
 		(layer "F.Cu")
 		(uuid "3297092d-6437-485a-b4ad-4f8ee671b8c7")
 		(at 104.45 127.55871)
@@ -6501,7 +6501,7 @@
 			)
 		)
 	)
-	(footprint "IFSC1515AHER2R2M01:IND_IFSC_1515AH_VIS"
+	(footprint "footprints:IND_IFSC_1515AH_VIS"
 		(layer "F.Cu")
 		(uuid "35cd22c2-0bf7-4709-9df7-96d3b5f53ecb")
 		(at 81.650064 80.867696 180)
@@ -6821,7 +6821,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "AMELA2012S_1R5MT:IND_AMELA2012S-1R5MT"
+	(footprint "footprints:IND_AMELA2012S-1R5MT"
 		(layer "F.Cu")
 		(uuid "37cd5bd4-f869-4afa-8653-6aedd2fd72e9")
 		(at 88.500062 79.908796 -90)
@@ -8354,7 +8354,7 @@
 			)
 		)
 	)
-	(footprint "TPS2121RUXR:RUX0012A"
+	(footprint "footprints:RUX0012A"
 		(layer "F.Cu")
 		(uuid "3ee292bd-70f8-44af-b68f-c174e5dbf51d")
 		(at 118.050062 98.308796)
@@ -8959,7 +8959,7 @@
 			)
 		)
 	)
-	(footprint "IFSC1515AHER2R2M01:IND_IFSC_1515AH_VIS"
+	(footprint "footprints:IND_IFSC_1515AH_VIS"
 		(layer "F.Cu")
 		(uuid "3fc99132-a096-4033-ab00-ad316f7ea7a3")
 		(at 68.671942 94.518078 90)
@@ -11310,7 +11310,7 @@
 			)
 		)
 	)
-	(footprint "MP2672AGD_0000_Z:QFN-18_MP2672A_MNP"
+	(footprint "footprints:QFN-18_MP2672A_MNP"
 		(layer "F.Cu")
 		(uuid "5614edfc-b906-40f5-866d-ffbd82931154")
 		(at 93.200062 79.008796)
@@ -12946,7 +12946,7 @@
 			)
 		)
 	)
-	(footprint "ASPI_7318_4R7M_T:IND_ASPI-7318-4R7M-T"
+	(footprint "footprints:IND_ASPI-7318-4R7M-T"
 		(layer "F.Cu")
 		(uuid "6683aa5c-43ce-4294-9a78-ed9dcba9340d")
 		(at 104.4 119.65)
@@ -13141,7 +13141,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MAX17205G:21-0137_T1433&plus_2C_MXM"
+	(footprint "footprints:21-0137_T1433&plus_2C_MXM"
 		(layer "F.Cu")
 		(uuid "66a38e61-fb56-4f5a-8b7e-7e24906f6795")
 		(at 113.494378 72.708796 -90)
@@ -14224,7 +14224,7 @@
 			)
 		)
 	)
-	(footprint "switches:SWITCH-R"
+	(footprint "footprints:SWITCH-R"
 		(layer "F.Cu")
 		(uuid "6d8b5522-1aba-4319-8dc4-26249a05cef3")
 		(at 99.400062 102.658796)
@@ -14728,7 +14728,7 @@
 			)
 		)
 	)
-	(footprint "switches:SWITCH-R"
+	(footprint "footprints:SWITCH-R"
 		(layer "F.Cu")
 		(uuid "73773d0e-e873-4e30-b0fd-5202cc34b9e8")
 		(at 99.450062 96.858796)
@@ -14839,7 +14839,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "switches:RBF"
+	(footprint "footprints:RBF"
 		(layer "F.Cu")
 		(uuid "73c670b7-cbdd-46e8-9837-1f7c75410d53")
 		(at 100.450062 99.658796 180)
@@ -15037,7 +15037,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "AMELA2012S_1R5MT:IND_AMELA2012S-1R5MT"
+	(footprint "footprints:IND_AMELA2012S-1R5MT"
 		(layer "F.Cu")
 		(uuid "7b3e9863-c311-4d4d-b427-ebfd6d1e95f9")
 		(at 80.850062 115.021296 -90)
@@ -15232,7 +15232,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MAX17205G:21-0137_T1433&plus_2C_MXM"
+	(footprint "footprints:21-0137_T1433&plus_2C_MXM"
 		(layer "F.Cu")
 		(uuid "7c1a5d6e-631c-4c6f-b02c-0a76e738e457")
 		(at 118.015562 118.986296 180)
@@ -15657,7 +15657,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MP2672AGD_0000_Z:QFN-18_MP2672A_MNP"
+	(footprint "footprints:QFN-18_MP2672A_MNP"
 		(layer "F.Cu")
 		(uuid "7d182c98-32f8-44e8-9de7-05406e7677e6")
 		(at 121.325062 80.533796)
@@ -24297,7 +24297,7 @@
 			)
 		)
 	)
-	(footprint "MAX17205G:21-0137_T1433&plus_2C_MXM"
+	(footprint "footprints:21-0137_T1433&plus_2C_MXM"
 		(layer "F.Cu")
 		(uuid "c7994782-53e0-49ff-adc3-58d4f9feaa6b")
 		(at 103.230638 70.858797)
@@ -24722,7 +24722,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "switches:SWITCH-L"
+	(footprint "footprints:SWITCH-L"
 		(layer "F.Cu")
 		(uuid "c97c6a25-a20a-47be-a1fd-f1d566e9ec46")
 		(at 99.45 93.55)
@@ -27529,7 +27529,7 @@
 			)
 		)
 	)
-	(footprint "TPS61088RHLR:RHL0020A"
+	(footprint "footprints:RHL0020A"
 		(layer "F.Cu")
 		(uuid "e2ae6995-4e76-487f-b253-2f24fd2b4f42")
 		(at 75.925064 80.017775 180)
@@ -28041,7 +28041,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MP2672AGD_0000_Z:QFN-18_MP2672A_MNP"
+	(footprint "footprints:QFN-18_MP2672A_MNP"
 		(layer "F.Cu")
 		(uuid "e4001561-61bf-424a-b0f6-3d0b5f63a6c7")
 		(at 85.550062 114.108796)
@@ -29341,7 +29341,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "TPS62132RGTR:RGT16_1P7X1P7"
+	(footprint "footprints:RGT16_1P7X1P7"
 		(layer "F.Cu")
 		(uuid "efe2ebd0-5b75-4767-b6c3-8406705311cc")
 		(at 73.193762 107.002496)
@@ -31783,7 +31783,7 @@
 			)
 		)
 	)
-	(footprint "AMELA2012S_1R5MT:IND_AMELA2012S-1R5MT"
+	(footprint "footprints:IND_AMELA2012S-1R5MT"
 		(layer "F.Cu")
 		(uuid "f8d66c98-9b30-4a31-aacd-ef65fed0899d")
 		(at 123.490562 113.236296 -90)

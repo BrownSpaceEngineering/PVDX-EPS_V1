@@ -5499,7 +5499,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "switches:SWITCH-R"
+		(property "Footprint" "footprints:SWITCH-R"
 			(at 78.74 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -5766,7 +5766,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "switches:SWITCH-R"
+		(property "Footprint" "footprints:SWITCH-R"
 			(at 238.76 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6480,7 +6480,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "switches:SWITCH-L"
+		(property "Footprint" "footprints:SWITCH-L"
 			(at 254 84.836 0)
 			(hide yes)
 			(show_name no)
@@ -7444,7 +7444,7 @@
 				)
 			)
 		)
-		(property "Footprint" "switches:RBF"
+		(property "Footprint" "footprints:RBF"
 			(at 219.71 80.01 0)
 			(hide yes)
 			(show_name no)

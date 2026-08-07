@@ -937,7 +937,7 @@
 					)
 				)
 			)
-			(property "Footprint" "MP28167GQ-Z:QFN-16_MP28167GQ_MNP"
+			(property "Footprint" "footprints:QFN-16_MP28167GQ_MNP"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4546,7 +4546,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ASPI_7318_4R7M_T:IND_ASPI-7318-4R7M-T"
+		(property "Footprint" "footprints:IND_ASPI-7318-4R7M-T"
 			(at 170.18 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -5615,7 +5615,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS2121RUXR:RUX0012A"
+		(property "Footprint" "footprints:RUX0012A"
 			(at 133.35 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -6061,7 +6061,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MP28167GQ-Z:QFN-16_MP28167GQ_MNP"
+		(property "Footprint" "footprints:QFN-16_MP28167GQ_MNP"
 			(at 118.11 120.65 0)
 			(hide yes)
 			(show_name no)

@@ -34,7 +34,7 @@
 					)
 				)
 			)
-			(property "Footprint" "MP2672AGD_0000_Z:QFN-18_MP2672A_MNP"
+			(property "Footprint" "footprints:QFN-18_MP2672A_MNP"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3927,7 +3927,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "AMELA2012S_1R5MT:IND_AMELA2012S-1R5MT"
+		(property "Footprint" "footprints:IND_AMELA2012S-1R5MT"
 			(at 58.42 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4590,7 +4590,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX17205G:21-0137_T1433&plus_2C_MXM"
+		(property "Footprint" "footprints:21-0137_T1433&plus_2C_MXM"
 			(at 184.15 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -6110,7 +6110,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MP2672AGD_0000_Z:QFN-18_MP2672A_MNP"
+		(property "Footprint" "footprints:QFN-18_MP2672A_MNP"
 			(at 63.5 78.74 0)
 			(hide yes)
 			(show_name no)

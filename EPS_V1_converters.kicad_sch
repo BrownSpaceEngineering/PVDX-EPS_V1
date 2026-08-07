@@ -698,7 +698,7 @@
 					)
 				)
 			)
-			(property "Footprint" "TPS61088RHLR:RHL0020A"
+			(property "Footprint" "footprints:RHL0020A"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1224,7 +1224,7 @@
 					)
 				)
 			)
-			(property "Footprint" "TPS62132RGTR:RGT16_1P7X1P7"
+			(property "Footprint" "footprints:RGT16_1P7X1P7"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1678,7 +1678,7 @@
 					)
 				)
 			)
-			(property "Footprint" "TPS62133RGTR:RGT0016C"
+			(property "Footprint" "footprints:RGT0016C"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4634,7 +4634,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS62133RGTR:RGT0016C"
+		(property "Footprint" "footprints:RGT0016C"
 			(at 99.06 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -4916,7 +4916,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "IFSC1515AHER2R2M01:IND_IFSC_1515AH_VIS"
+		(property "Footprint" "footprints:IND_IFSC_1515AH_VIS"
 			(at 133.35 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5584,7 +5584,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS62132RGTR:RGT16_1P7X1P7"
+		(property "Footprint" "footprints:RGT16_1P7X1P7"
 			(at 129.54 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -6586,7 +6586,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS61088RHLR:RHL0020A"
+		(property "Footprint" "footprints:RHL0020A"
 			(at 87.63 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7532,7 +7532,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "IFSC1515AHER2R2M01:IND_IFSC_1515AH_VIS"
+		(property "Footprint" "footprints:IND_IFSC_1515AH_VIS"
 			(at 133.35 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -8028,7 +8028,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "IFSC1515AHER2R2M01:IND_IFSC_1515AH_VIS"
+		(property "Footprint" "footprints:IND_IFSC_1515AH_VIS"
 			(at 87.63 29.21 0)
 			(hide yes)
 			(show_name no)
