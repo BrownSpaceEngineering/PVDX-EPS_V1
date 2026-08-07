@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 77.47 41.91)
+		(at 86.36 41.91)
 		(size 21.59 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "1a447d2c-bf0d-40e4-b56c-2660ef69d96a")
 		(property "Sheetname" "Battery Pack 2"
-			(at 77.47 41.1984 0)
+			(at 86.36 41.1984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32,8 +32,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "EPS_V1_battery_pack_2.kicad_sch"
-			(at 77.47 46.3046 0)
+		(property "Sheetfile" "schematics/EPS_V1_battery_pack_2.kicad_sch"
+			(at 86.36 46.3046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -78,7 +78,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "EPS_V1_charging_inputs.kicad_sch"
+		(property "Sheetfile" "schematics/EPS_V1_charging_inputs.kicad_sch"
 			(at 34.29 57.0996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -92,13 +92,13 @@
 		(instances
 			(project "EPS_V1"
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47"
-					(page "1")
+					(page "8")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 77.47 64.135)
+		(at 86.36 64.135)
 		(size 21.59 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -114,7 +114,7 @@
 		)
 		(uuid "5659a67b-3108-4102-8b7c-09d96e8fb3f7")
 		(property "Sheetname" "Battery Pack 4"
-			(at 77.47 63.4234 0)
+			(at 86.36 63.4234 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -124,8 +124,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "EPS_V1_battery_pack_4.kicad_sch"
-			(at 77.47 68.5296 0)
+		(property "Sheetfile" "schematics/EPS_V1_battery_pack_4.kicad_sch"
+			(at 86.36 68.5296 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -170,7 +170,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "EPS_V1_converters.kicad_sch"
+		(property "Sheetfile" "schematics/EPS_V1_converters.kicad_sch"
 			(at 34.29 46.3046 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -190,7 +190,7 @@
 		)
 	)
 	(sheet
-		(at 77.47 31.75)
+		(at 86.36 31.75)
 		(size 21.59 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -206,7 +206,7 @@
 		)
 		(uuid "d6a7ca1d-fe68-467f-8233-74a5cf811189")
 		(property "Sheetname" "Battery Pack 1"
-			(at 77.47 31.0384 0)
+			(at 86.36 31.0384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -216,8 +216,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "EPS_V1_battery_pack_1.kicad_sch"
-			(at 77.47 36.1446 0)
+		(property "Sheetfile" "schematics/EPS_V1_battery_pack_1.kicad_sch"
+			(at 86.36 36.1446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -262,7 +262,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "EPS_V1_connectors.kicad_sch"
+		(property "Sheetfile" "schematics/EPS_V1_connectors.kicad_sch"
 			(at 34.29 36.1446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -282,7 +282,7 @@
 		)
 	)
 	(sheet
-		(at 77.47 53.34)
+		(at 86.36 53.34)
 		(size 21.59 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -298,7 +298,7 @@
 		)
 		(uuid "eb164b0c-5007-4f8f-b822-af0e1d9e197d")
 		(property "Sheetname" "Battery Pack 3"
-			(at 77.47 52.6284 0)
+			(at 86.36 52.6284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -308,8 +308,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "EPS_V1_battery_pack_3.kicad_sch"
-			(at 77.47 57.7346 0)
+		(property "Sheetfile" "schematics/EPS_V1_battery_pack_3.kicad_sch"
+			(at 86.36 57.7346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
