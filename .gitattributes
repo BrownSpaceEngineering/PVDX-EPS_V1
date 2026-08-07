@@ -1,3 +1,4 @@
 *.kicad_pro text eol=crlf
 *.kicad_sch text eol=crlf
 *.kicad_pcb text eol=crlf
+*.step text eol=crlf
