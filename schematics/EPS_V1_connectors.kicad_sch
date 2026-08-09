@@ -3688,12 +3688,6 @@
 		(uuid "1c12a8ce-13f2-40f3-bf1e-00bbb0221c36")
 	)
 	(junction
-		(at 82.55 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1fb3c793-fa46-4782-8a50-f5a330737552")
-	)
-	(junction
 		(at 82.55 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3858,16 +3852,6 @@
 			(type default)
 		)
 		(uuid "0832e71a-6933-478f-9438-4375955bb886")
-	)
-	(wire
-		(pts
-			(xy 82.55 111.76) (xy 87.63 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a450003-7b80-42cc-962b-16128f8f23bb")
 	)
 	(wire
 		(pts
@@ -4048,16 +4032,6 @@
 			(type default)
 		)
 		(uuid "2c69496a-db12-494f-9a66-ce4f476f467a")
-	)
-	(wire
-		(pts
-			(xy 82.55 111.76) (xy 82.55 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30cc4967-df90-4e7c-831d-d99c9b90d17c")
 	)
 	(wire
 		(pts
@@ -4308,6 +4282,16 @@
 			(type default)
 		)
 		(uuid "932b25d5-7c13-40ae-94ea-a0d35db8efd4")
+	)
+	(wire
+		(pts
+			(xy 82.55 114.3) (xy 95.25 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9571d029-e596-4767-aa1c-4d3e53d9bd69")
 	)
 	(wire
 		(pts
@@ -4648,6 +4632,30 @@
 			(type default)
 		)
 		(uuid "fec88403-e9fb-4e6c-9002-ffc241beae5b")
+	)
+	(global_label "CHG_OUT"
+		(shape passive)
+		(at 82.55 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0a39e734-af97-456c-9240-70c96e74f3a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.8906 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(global_label "I2C3_SDA"
 		(shape bidirectional)
@@ -6839,84 +6847,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 87.63 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9b864c2-2c75-473c-9bd7-92d8b024d90e")
-		(property "Reference" "#PWR016"
-			(at 87.63 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 87.63 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 87.63 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "88650153-d3f8-4b51-b088-3bc0f71fa939")
-		)
-		(instances
-			(project "EPS_V1"
-				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/dccdebb8-bc98-4226-b239-70e380ba944d"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 195.58 64.77 180)
 		(unit 1)
@@ -7083,6 +7013,84 @@
 			(project "EPS_V1"
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/dccdebb8-bc98-4226-b239-70e380ba944d"
 					(reference "R_ALRT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 95.25 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed33636a-7b8e-492d-ae95-dfe8c1627d45")
+		(property "Reference" "#PWR016"
+			(at 95.25 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 95.25 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 95.25 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c67fbb31-4aa5-49cc-92ae-0c50f627bee5")
+		)
+		(instances
+			(project "EPS_V1"
+				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/dccdebb8-bc98-4226-b239-70e380ba944d"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)

@@ -828,17 +828,13 @@
         "uuid": "85157432-5d03-48fa-ab40-27ed3d133f47"
       }
     ],
-    "used_designators": "#PWR30",
+    "used_designators": "#PWR16",
     "variants": []
   },
   "sheets": [
     [
       "85157432-5d03-48fa-ab40-27ed3d133f47",
       "EPS_V1"
-    ],
-    [
-      "200409e9-92e5-48dc-b89e-cefaee3c74ba",
-      "Charging Inputs"
     ],
     [
       "dccdebb8-bc98-4226-b239-70e380ba944d",
@@ -863,6 +859,10 @@
     [
       "5659a67b-3108-4102-8b7c-09d96e8fb3f7",
       "Battery Pack 4"
+    ],
+    [
+      "200409e9-92e5-48dc-b89e-cefaee3c74ba",
+      "Charging Inputs"
     ]
   ],
   "text_variables": {},
