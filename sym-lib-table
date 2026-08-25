@@ -3,7 +3,7 @@
 	(lib (name "MP2672AGD_0000_Z") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/MP2672AGD_0000_Z.kicad_sym") (options "") (descr ""))
 	(lib (name "TPS62132RGTR") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/TPS62132RGTR.kicad_sym") (options "") (descr ""))
 	(lib (name "TPS62133RGTR") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/TPS62133RGTR.kicad_sym") (options "") (descr ""))
-	(lib (name "sym_lib") (type "KiCad") (uri "${KIPRJMOD}/sym_lib.kicad_sym") (options "") (descr ""))
+	(lib (name "sym_lib") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/sym_lib.kicad_sym") (options "") (descr ""))
 	(lib (name "MP28167GQ-Z") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/MP28167GQ-Z.kicad_sym") (options "") (descr ""))
 	(lib (name "MAX17205G") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/MAX17205G.kicad_sym") (options "") (descr ""))
 	(lib (name "TPS61088RHLR") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/TPS61088RHLR.kicad_sym") (options "") (descr ""))

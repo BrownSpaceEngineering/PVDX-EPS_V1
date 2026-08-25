@@ -4861,7 +4861,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.01"
+		(property "Value" "10m"
 			(at 201.676 108.204 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4942,7 +4942,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "50R"
 			(at 165.354 81.534 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5177,7 +5177,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 167.132 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5361,7 +5361,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.47u"
+		(property "Value" "470n"
 			(at 172.212 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5615,7 +5615,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "150R"
 			(at 247.904 91.186 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5865,7 +5865,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "50R"
 			(at 61.722 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6777,7 +6777,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.47u"
+		(property "Value" "470n"
 			(at 182.118 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7389,7 +7389,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "150R"
 			(at 263.144 78.994 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7762,7 +7762,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 55.118 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)

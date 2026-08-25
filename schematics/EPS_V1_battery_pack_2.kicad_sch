@@ -4097,7 +4097,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "150R"
 			(at 247.904 89.916 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4362,7 +4362,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.47u"
+		(property "Value" "470n"
 			(at 172.212 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4685,7 +4685,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 55.118 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4869,7 +4869,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "50R"
 			(at 61.722 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5301,7 +5301,7 @@
 		(dnp no)
 		(uuid "7f23d46d-b061-4712-a83e-0c2e28b5897c")
 		(property "Reference" "D_SCL2"
-			(at 237.49 87.63 90)
+			(at 236.22 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5572,7 +5572,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 167.132 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6157,7 +6157,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.47u"
+		(property "Value" "470n"
 			(at 182.118 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6407,7 +6407,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "50R"
 			(at 165.354 80.264 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6804,7 +6804,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.01"
+		(property "Value" "10m"
 			(at 201.676 106.934 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7538,7 +7538,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "150R"
 			(at 263.144 77.724 90)
 			(show_name no)
 			(do_not_autoplace no)
