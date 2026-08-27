@@ -5,7 +5,7 @@ Electrical Power System (EPS) for PVDX — battery charging, regulation, and pow
 ## Status
 - Design phase: layout
 - Current rev: rev-1.2
-- Contributors: Kelly Lin, Jayla Hsiung, Nick Cavallo, Emily Zhang, Dean Zweiman
+- Contributors: Kelly Lin, Natalie Cavallo, Jayla Hsiung, Nick Cavallo, Emily Zhang, Dean Zweiman
 
 ## System overview
 
