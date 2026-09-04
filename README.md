@@ -4,7 +4,7 @@ Electrical Power System (EPS) for PVDX — battery charging, regulation, and pow
 
 ## Status
 - Design phase: layout
-- Current rev: rev-1.2
+- Current rev: rev-1.3
 - Contributors: Kelly Lin, Natalie Cavallo, Jayla Hsiung, Nick Cavallo, Emily Zhang, Dean Zweiman
 
 ## System overview
@@ -60,6 +60,7 @@ EPS_V1/
 |-----|------|-------|----------|
 | 1.0 | 5/15/26 | First layout pass | `manufacturing/rev-1.0_2026-05-15/` |
 | 1.2 | 8/7/26  | Prepared for schematic submittal | `manufacturing/rev-1.2_2026-08-07/` |
+| 1.3 | 8/30/26  | Prepared for fabrication | `manufacturing/rev-1.3_2026-08-30/` |
 
 ## Open items / TBD
 - S-band kill switch, FSW-configurable — not yet in design
