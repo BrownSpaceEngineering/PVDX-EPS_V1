@@ -2290,6 +2290,12 @@
 		(uuid "f00c0168-a57b-4fcb-a0fa-061df426509e")
 	)
 	(junction
+		(at 105.41 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1e49be7-1f6b-4c39-829f-f9f83d2e3c1d")
+	)
+	(junction
 		(at 48.26 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2332,16 +2338,6 @@
 			(type default)
 		)
 		(uuid "0e75a303-4505-47cc-8c01-998b0a01f8b4")
-	)
-	(wire
-		(pts
-			(xy 104.14 81.28) (xy 116.84 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14a86397-e2b5-43dd-bf9a-fc18eb72c1f7")
 	)
 	(polyline
 		(pts
@@ -2595,7 +2591,17 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 63.5) (xy 48.26 63.5)
+			(xy 104.14 81.28) (xy 105.41 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "759238b2-bb6c-4939-aadc-f040093c08e0")
+	)
+	(wire
+		(pts
+			(xy 114.3 63.5) (xy 105.41 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2752,6 +2758,26 @@
 			(type default)
 		)
 		(uuid "9befeb11-1978-4db7-a988-3a25dda934e4")
+	)
+	(wire
+		(pts
+			(xy 105.41 81.28) (xy 105.41 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a182d161-0832-480a-bc92-5fec64aa2cf1")
+	)
+	(wire
+		(pts
+			(xy 105.41 63.5) (xy 48.26 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a75d2c0f-2a7a-4d35-914b-6bd9db625ffd")
 	)
 	(wire
 		(pts
@@ -2932,16 +2958,6 @@
 			(type default)
 		)
 		(uuid "e5a2ea42-c1a3-4b0f-8d67-76665e6ce771")
-	)
-	(wire
-		(pts
-			(xy 116.84 81.28) (xy 116.84 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5ed1ccd-5731-474f-9386-7c6ab43209fd")
 	)
 	(wire
 		(pts
@@ -4229,83 +4245,6 @@
 		)
 	)
 	(symbol
-		(lib_id "sym_lib:GNDA3")
-		(at 116.84 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4444a344-3f1e-4b69-9e56-2314c766424d")
-		(property "Reference" "#PWR075"
-			(at 116.84 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDA3"
-			(at 116.84 97.028 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "02752af6-bef5-4637-9312-17e110aad8fd")
-		)
-		(instances
-			(project "EPS_V1"
-				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/eb164b0c-5007-4f8f-b822-af0e1d9e197d"
-					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:NetTie_2")
 		(at 196.85 104.14 90)
 		(unit 1)
@@ -4919,87 +4858,6 @@
 			(project "EPS_V1"
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/eb164b0c-5007-4f8f-b822-af0e1d9e197d"
 					(reference "R_ISET3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 116.84 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5568ae1c-69c9-4ceb-ab3e-deda3635b55f")
-		(property "Reference" "R_VBATT3"
-			(at 118.872 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33k"
-			(at 118.872 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 117.856 89.154 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 116.84 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3367bd22-da55-44a3-a827-dfd64f7564aa")
-		)
-		(pin "1"
-			(uuid "d5e72a4a-3ee2-475b-81e5-134ef3ef8040")
-		)
-		(instances
-			(project "EPS_V1"
-				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/eb164b0c-5007-4f8f-b822-af0e1d9e197d"
-					(reference "R_VBATT3")
 					(unit 1)
 				)
 			)
