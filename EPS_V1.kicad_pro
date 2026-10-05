@@ -828,7 +828,7 @@
         "uuid": "85157432-5d03-48fa-ab40-27ed3d133f47"
       }
     ],
-    "used_designators": "J5",
+    "used_designators": "R16,R_ALRT1-2,#PWR43-44,J5",
     "variants": []
   },
   "sheets": [
