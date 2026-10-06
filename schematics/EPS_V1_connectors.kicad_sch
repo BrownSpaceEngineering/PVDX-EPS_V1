@@ -3711,7 +3711,7 @@
 		(uuid "baaa8ef8-38f7-4e31-aa3d-1842e5995a34")
 	)
 	(junction
-		(at 149.86 74.93)
+		(at 140.97 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1f544c9-2bfe-4f27-a40c-1b780ed9ebbb")
@@ -3978,7 +3978,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 74.93) (xy 138.43 74.93)
+			(xy 121.92 74.93) (xy 140.97 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4008,7 +4008,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 72.39) (xy 149.86 74.93)
+			(xy 140.97 72.39) (xy 140.97 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4498,16 +4498,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 74.93) (xy 146.05 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5fdddd9-6a3a-43d5-8330-6a625b50e546")
-	)
-	(wire
-		(pts
 			(xy 46.99 82.55) (xy 44.45 82.55)
 		)
 		(stroke
@@ -4598,7 +4588,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 74.93) (xy 149.86 74.93)
+			(xy 142.24 74.93) (xy 140.97 74.93)
 		)
 		(stroke
 			(width 0)
@@ -5276,7 +5266,7 @@
 	)
 	(global_label "ALRT"
 		(shape input)
-		(at 151.13 74.93 0)
+		(at 142.24 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5286,7 +5276,7 @@
 		)
 		(uuid "b9216a5a-cbb0-477e-9046-36ef48c96d4d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.4695 74.93 0)
+			(at 149.5795 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6457,7 +6447,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 149.86 68.58 0)
+		(at 140.97 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6468,7 +6458,7 @@
 		(fields_autoplaced yes)
 		(uuid "9951f4dd-062c-4d5c-bf2e-6664ec82da1f")
 		(property "Reference" "R_ALRT2"
-			(at 152.4 67.3099 0)
+			(at 143.51 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6479,7 +6469,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 152.4 69.8499 0)
+			(at 143.51 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6490,7 +6480,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 150.876 68.834 90)
+			(at 141.986 68.834 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6501,7 +6491,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 68.58 0)
+			(at 140.97 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6512,7 +6502,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 149.86 68.58 0)
+			(at 140.97 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6945,87 +6935,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 142.24 74.93 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e7e12e8e-cf6b-42d6-bcf5-10a3deb99f52")
-		(property "Reference" "R_ALRT1"
-			(at 145.796 72.644 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 143.764 70.104 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 141.986 75.946 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 142.24 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3675da93-5c52-4a18-b809-51492fb39ff6")
-		)
-		(pin "1"
-			(uuid "fa3e9a9d-b730-49a1-b990-d7c60afc6969")
-		)
-		(instances
-			(project "EPS_V1"
-				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/dccdebb8-bc98-4226-b239-70e380ba944d"
-					(reference "R_ALRT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 95.25 114.3 0)
 		(unit 1)
@@ -7429,7 +7338,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 149.86 64.77 0)
+		(at 140.97 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7440,7 +7349,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc356360-0a34-44b8-a0d3-56a687525a0c")
 		(property "Reference" "#PWR0108"
-			(at 149.86 68.58 0)
+			(at 140.97 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7451,7 +7360,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 149.86 59.69 0)
+			(at 140.97 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7461,7 +7370,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 64.77 0)
+			(at 140.97 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7472,7 +7381,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 64.77 0)
+			(at 140.97 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7483,7 +7392,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 149.86 64.77 0)
+			(at 140.97 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
