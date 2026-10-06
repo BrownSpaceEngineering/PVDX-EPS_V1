@@ -4898,7 +4898,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43a97721-fe4f-48eb-b57a-fd5c51173e02")
-		(property "Reference" "R_LTC8"
+		(property "Reference" "R_LTC9"
 			(at 142.494 163.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4962,7 +4962,7 @@
 		(instances
 			(project "EPS_V1"
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/200409e9-92e5-48dc-b89e-cefaee3c74ba"
-					(reference "R_LTC8")
+					(reference "R_LTC9")
 					(unit 1)
 				)
 			)
@@ -7481,7 +7481,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8739825-9abc-4fc3-9ada-846c100024da")
-		(property "Reference" "R_LTC8"
+		(property "Reference" "R_LTC7"
 			(at 66.294 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7545,7 +7545,7 @@
 		(instances
 			(project "EPS_V1"
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/200409e9-92e5-48dc-b89e-cefaee3c74ba"
-					(reference "R_LTC8")
+					(reference "R_LTC7")
 					(unit 1)
 				)
 			)
@@ -7562,7 +7562,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa7fb762-974a-48d9-8a49-aedfb63fd7f9")
-		(property "Reference" "R_LTC7"
+		(property "Reference" "R_LTC8"
 			(at 93.726 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7626,7 +7626,7 @@
 		(instances
 			(project "EPS_V1"
 				(path "/85157432-5d03-48fa-ab40-27ed3d133f47/200409e9-92e5-48dc-b89e-cefaee3c74ba"
-					(reference "R_LTC7")
+					(reference "R_LTC8")
 					(unit 1)
 				)
 			)
