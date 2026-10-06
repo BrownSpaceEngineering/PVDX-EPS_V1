@@ -11,4 +11,5 @@
 	(lib (name "AMELA2012S-1R5MT") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/AMELA2012S-1R5MT.kicad_sym") (options "") (descr ""))
 	(lib (name "ASPI-7318-4R7M-T") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/ASPI-7318-4R7M-T.kicad_sym") (options "") (descr ""))
 	(lib (name "IFSC1515AHER2R2M01") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/IFSC1515AHER2R2M01.kicad_sym") (options "") (descr ""))
+	(lib (name "LTC3119EFE_PBF") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/LTC3119EFE_PBF.kicad_sym") (options "") (descr ""))
 )

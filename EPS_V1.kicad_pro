@@ -663,7 +663,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "manufacturing/2026-08-30/",
+      "plot": "manufacturing/2026-10-03/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "EPS_V1.step",
@@ -828,7 +828,7 @@
         "uuid": "85157432-5d03-48fa-ab40-27ed3d133f47"
       }
     ],
-    "used_designators": "#PWR50,#PWR81,#PWR100,#PWR129-132,TP1-3",
+    "used_designators": "R16,J5,U14,C17,C_LTC1-8,#PWR43-44,#PWR50,#PWR58-59,#PWR75,#PWR83-84,#PWR94,#PWR100,#PWR102-104,L3,TP1,TP3,R_LTC2-9",
     "variants": []
   },
   "sheets": [
