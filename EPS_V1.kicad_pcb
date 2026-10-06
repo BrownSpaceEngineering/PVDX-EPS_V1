@@ -128,7 +128,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "manufacturing/2026-10-03/")
+			(outputdirectory "manufacturing/rev-1.4_2026-10-06/")
 		)
 	)
 	(footprint "footprints:21-0137_T1433&plus_2C_MXM"
